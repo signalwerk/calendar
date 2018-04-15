@@ -1,0 +1,32 @@
+{
+  "name": "calendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run start",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/signalwerk/calendar.git"
+  },
+  "keywords": [
+    "calendar",
+    "ica"
+  ],
+  "author": "Stefan Huber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/signalwerk/calendar/issues"
+  },
+  "homepage": "https://github.com/signalwerk/calendar#readme",
+  "dependencies": {
+    "front-matter": "^2.3.0",
+    "immutable-ics": "^0.4.0",
+    "moment": "^2.22.0",
+    "ramda": "^0.25.0",
+    "uuid": "^3.2.1"
+  }
+}
