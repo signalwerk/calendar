@@ -113,6 +113,17 @@ class Parser {
     let from = new moment(data.date.from);
     let to = new moment(data.date.to);
 
+    if(from.month) {
+      from.month = from.month - 1
+    }
+
+    if(to.month) {
+      to.month = to.month - 1
+    }
+    from = new moment(from);
+    to = new moment(to);
+
+
     if (from.diff(to) === 0) {
       to = from.add(1, "d");
     }
