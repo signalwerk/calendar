@@ -110,19 +110,27 @@ class Parser {
 
   // generate the icsEvent
   icsEvent(data) {
+
+    // zero based month in js
+    if (data.date.from.month) {
+      data.date.from.month = data.date.from.month - 1;
+    }
+
+    // zero based month in js
+    if (data.date.to.month) {
+      data.date.to.month = data.date.to.month - 1;
+    }
+
     let from = new moment(data.date.from);
     let to = new moment(data.date.to);
 
-    if(from.month) {
-      from.month = from.month - 1
-    }
+    console.log("-----------", )
 
-    if(to.month) {
-      to.month = to.month - 1
-    }
+
+
+
     from = new moment(from);
     to = new moment(to);
-
 
     if (from.diff(to) === 0) {
       to = from.add(1, "d");
