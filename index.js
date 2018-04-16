@@ -108,7 +108,6 @@ class Parser {
 
   // generate the icsEvent
   icsEvent(data) {
-
     // zero based month in js
     if (data.date.from.month) {
       data.date.from.month = data.date.from.month - 1;
@@ -121,8 +120,6 @@ class Parser {
 
     let from = new moment(data.date.from);
     let to = new moment(data.date.to);
-
-
 
     from = new moment(from);
     to = new moment(to);
@@ -146,7 +143,7 @@ class Parser {
       }),
       new Property({
         name: "SUMMARY",
-        value: data.title
+        value: data.title || "no Title"
       }),
       new Property({
         name: "DTSTART",
@@ -163,12 +160,29 @@ class Parser {
           // VALUE: 'DATE-TIME',
           TZID: "Europe/Zurich"
         }
-      }),
-      new Property({
-        name: "DESCRIPTION",
-        value: data.notes
       })
     ];
+
+    if (data.url) {
+      properties.push(
+        new Property({
+          name: "URL",
+          value: data.url,
+          parameters: {
+            VALUE: "URI"
+          }
+        })
+      );
+    }
+
+    if (data.notes) {
+      properties.push(
+        new Property({
+          name: "DESCRIPTION",
+          value: data.notes
+        })
+      );
+    }
 
     var event = new Component({
       name: "VEVENT",
@@ -206,8 +220,6 @@ class Parser {
     console.log("ics written to " + path);
   }
 
-
-
   entry(entry, defaults) {
     let out = R.mergeDeepLeft(this.line(entry), defaults);
 
@@ -222,7 +234,6 @@ class Parser {
     }
 
     out = R.pick(["date", "title", "notes"], out);
-
 
     this.events.push(out);
     return out;
@@ -275,11 +286,8 @@ class Parser {
   }
 
   parse(path) {
-
     // parse frontmatter
-    var content = fm(
-      fs.readFileSync(path, "utf8")
-    );
+    var content = fm(fs.readFileSync(path, "utf8"));
 
     let defaults = content.attributes;
 
@@ -289,7 +297,6 @@ class Parser {
         body: defaults.date
       }).date;
     }
-
 
     var isEven = n => n % 2 === 0;
 
@@ -303,12 +310,11 @@ class Parser {
       this.entry(item, defaults);
     };
     let data = R.map(runLIne, splitter(content.body));
-
   }
 }
-
 
 const parser = new Parser();
 parser.parse("./data/Elementare Typographie/2016-FS.txt");
 parser.parse("./data/Elementare Typographie/2018-FS.txt");
+parser.parse("./data/sechseläuten.txt");
 parser.ics("./public/all.ics");
