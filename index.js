@@ -2,29 +2,14 @@ const fs = require("fs");
 const fm = require("front-matter");
 const R = require("ramda");
 const moment = require("moment");
-const uuid = require("uuid");
-const { Component, Property } = require("immutable-ics");
 
-// 01.01.1900 and 31.12.2099
-// https://stackoverflow.com/questions/12472976/regex-validate-european-date-format-with-multiple-separators
-const DateDef =
-  "([1-9]|0[1-9]|[12][0-9]|3[01])[.]+[ ]*([1-9]|0[1-9]|1[012])[.]+[ ]*(19\\d\\d|20\\d\\d)";
-
-// h
-const hourDef = "([ ]*(h|uhr))*";
-
-// 00:01 - 23:59
-const TimeDef = "([01]\\d|2[0-3]):?([0-5]\\d)?" + hourDef;
-const TimeRange = "([01]\\d|2[0-3]):?([0-5]\\d)?" + hourDef;
-
-// to
-const toDef = "[ ]*([-–]|to|bis)[ ]*";
-
-const testDate = RegExp("^" + DateDef + "$", "i");
-const testTime = RegExp("^" + TimeDef + "$", "i");
-const testTimeRange = RegExp("^" + TimeDef + toDef + TimeDef + "$", "i");
-
-const now = new moment();
+const { icsExporter } = require("./src/icsExporter");
+const {
+  parseIfIsDate,
+  parseIfIsTime,
+  parseIfIsTimeRange,
+  parseTitle
+} = require("./src/parsers");
 
 const typeUndefCb = (entry, cb) =>
   R.ifElse(
@@ -33,243 +18,9 @@ const typeUndefCb = (entry, cb) =>
     item => item
   )(entry);
 
-const parseDate = txt => {
-  let parsed = testDate.exec(txt);
-  return {
-    type: "date",
-    date: {
-      from: {
-        day: parsed[1],
-        month: parsed[2],
-        year: parsed[3]
-      }
-    }
-  };
-};
-
-const parseTime = txt => {
-  let parsed = testTime.exec(txt);
-  return {
-    type: "time",
-    date: {
-      from: {
-        hour: parsed[1],
-        minute: parsed[2]
-      }
-    }
-  };
-};
-
-const parseTimeRange = txt => {
-  let parsed = testTimeRange.exec(txt);
-  return {
-    type: "time",
-    date: {
-      from: {
-        hour: parsed[1],
-        minute: parsed[2]
-      },
-      to: {
-        hour: parsed[6],
-        minute: parsed[7]
-      }
-    }
-  };
-};
-
-const parseIfIsDate = R.ifElse(
-  R.compose(R.test(testDate), R.prop("body")),
-  item => parseDate(item.body),
-  item => item
-);
-
-const parseIfIsTime = R.ifElse(
-  R.compose(R.test(testTime), R.prop("body")),
-  item => parseTime(item.body),
-  item => item
-);
-
-const parseIfIsTimeRange = R.ifElse(
-  R.compose(R.test(testTimeRange), R.prop("body")),
-  item => parseTimeRange(item.body),
-  item => item
-);
-
-const parseTitle = item => ({
-  type: "title",
-  title: { body: item.body },
-  body: item.body
-});
-
 class Parser {
   constructor() {
     this.events = [];
-  }
-
-  // generate the icsEvent
-  icsEvent(data) {
-    let from = data.date.from;
-    let to = data.date.to;
-
-    // zero based month in js
-    if (from.month) {
-      from.month = from.month - 1;
-    }
-
-    // zero based month in js
-    if (to.month) {
-      to.month = to.month - 1;
-    }
-
-    from = {
-      minute: from.minute || 0,
-      hour: from.hour || 0,
-      day: from.day || 1,
-      month: from.month || 0,
-      year: from.year || 1900
-    };
-
-    to = {
-      minute: to.minute || 0,
-      hour: to.hour || 0,
-      day: to.day || 1,
-      month: to.month || 0,
-      year: to.year || 1900
-    };
-
-    from = new moment(from);
-    to = new moment(to);
-
-
-    var properties = [
-      new Property({
-        name: "UID",
-        value: uuid.v1()
-      }),
-      new Property({
-        name: "DTSTAMP",
-        value: now.toDate(),
-        parameters: {
-          // VALUE: 'DATE-TIME',
-          TZID: "Europe/Zurich"
-        }
-      }),
-      new Property({
-        name: "SUMMARY",
-        value: data.title || "no Title"
-      }),
-    ];
-
-
-
-    if (from.diff(to) === 0) {
-      // whole day handling
-      to.add(1, "d");
-      properties.push(
-
-        new Property({
-          name: "DTSTART",
-          value: from.toDate(),
-          parameters: {
-            // VALUE: 'DATE-TIME',
-            VALUE: 'DATE',
-
-          }
-        }),
-        new Property({
-          name: "DTEND",
-          value: to.toDate(),
-          parameters: {
-            // VALUE: 'DATE-TIME',
-            VALUE: 'DATE',
-          }
-        })
-
-      )
-    } else {
-      // handling with time
-      properties.push(
-
-        new Property({
-          name: "DTSTART",
-          value: from.toDate(),
-          parameters: {
-            // VALUE: 'DATE-TIME',
-            TZID: "Europe/Zurich"
-          }
-        }),
-        new Property({
-          name: "DTEND",
-          value: to.toDate(),
-          parameters: {
-            // VALUE: 'DATE-TIME',
-            TZID: "Europe/Zurich"
-          }
-        })
-
-      )
-    }
-
-
-
-
-
-
-    if (data.url) {
-      properties.push(
-        new Property({
-          name: "URL",
-          value: data.url,
-          parameters: {
-            VALUE: "URI"
-          }
-        })
-      );
-    }
-
-    if (data.notes) {
-      properties.push(
-        new Property({
-          name: "DESCRIPTION",
-          value: data.notes
-        })
-      );
-    }
-
-    var event = new Component({
-      name: "VEVENT",
-      properties
-    });
-
-    return event;
-  }
-
-  // generate the ics
-  ics(path) {
-    var events = [];
-
-    this.events.forEach(value => {
-      events.push(this.icsEvent(value));
-    });
-
-    const calendar = new Component({
-      name: "VCALENDAR",
-      components: events,
-      properties: [
-        new Property({
-          name: "VERSION",
-          value: 2
-        }),
-        new Property({
-          name: "PRODID",
-          value: "signalwerk-generator"
-        })
-      ]
-    });
-
-    let out = calendar.toString();
-    fs.writeFileSync(path, out);
-    console.log("ics written to " + path);
   }
 
   entry(entry, defaults) {
@@ -335,6 +86,12 @@ class Parser {
     out = R.mergeDeepLeft(out, R.find(R.propEq("type", "title"))(data) || {});
 
     return out;
+  }
+
+  ics(path) {
+    let ics = new icsExporter(this.events);
+
+    ics.ics(path);
   }
 
   parse(path) {
