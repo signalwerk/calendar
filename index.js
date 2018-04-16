@@ -140,9 +140,6 @@ class Parser {
     from = new moment(from);
     to = new moment(to);
 
-    if (from.diff(to) === 0) {
-      to.add(1, "d");
-    }
 
     var properties = [
       new Property({
@@ -161,23 +158,62 @@ class Parser {
         name: "SUMMARY",
         value: data.title || "no Title"
       }),
-      new Property({
-        name: "DTSTART",
-        value: from.toDate(),
-        parameters: {
-          // VALUE: 'DATE-TIME',
-          TZID: "Europe/Zurich"
-        }
-      }),
-      new Property({
-        name: "DTEND",
-        value: to.toDate(),
-        parameters: {
-          // VALUE: 'DATE-TIME',
-          TZID: "Europe/Zurich"
-        }
-      })
     ];
+
+
+
+    if (from.diff(to) === 0) {
+      // whole day handling
+      to.add(1, "d");
+      properties.push(
+
+        new Property({
+          name: "DTSTART",
+          value: from.toDate(),
+          parameters: {
+            // VALUE: 'DATE-TIME',
+            VALUE: 'DATE',
+
+          }
+        }),
+        new Property({
+          name: "DTEND",
+          value: to.toDate(),
+          parameters: {
+            // VALUE: 'DATE-TIME',
+            VALUE: 'DATE',
+          }
+        })
+
+      )
+    } else {
+      // handling with time
+      properties.push(
+
+        new Property({
+          name: "DTSTART",
+          value: from.toDate(),
+          parameters: {
+            // VALUE: 'DATE-TIME',
+            TZID: "Europe/Zurich"
+          }
+        }),
+        new Property({
+          name: "DTEND",
+          value: to.toDate(),
+          parameters: {
+            // VALUE: 'DATE-TIME',
+            TZID: "Europe/Zurich"
+          }
+        })
+
+      )
+    }
+
+
+
+
+
 
     if (data.url) {
       properties.push(
