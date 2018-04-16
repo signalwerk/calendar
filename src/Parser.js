@@ -87,10 +87,6 @@ class Parser {
     return out;
   }
 
-  events() {
-    return this.events;
-  }
-
 
   parse(path) {
     // parse frontmatter
