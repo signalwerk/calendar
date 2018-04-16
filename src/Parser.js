@@ -3,7 +3,6 @@ const fm = require("front-matter");
 const R = require("ramda");
 const moment = require("moment");
 
-const { icsExporter } = require("./icsExporter");
 const {
   parseIfIsDate,
   parseIfIsTime,
@@ -88,10 +87,10 @@ class Parser {
     return out;
   }
 
-  ics(path) {
-    let ics = new icsExporter(this.events);
-    ics.ics(path);
+  events() {
+    return this.events;
   }
+
 
   parse(path) {
     // parse frontmatter
