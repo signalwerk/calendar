@@ -102,9 +102,7 @@ const parseTitle = item => ({
 });
 
 class Parser {
-  constructor(path) {
-    this.path = path || "";
-    this.read();
+  constructor() {
     this.events = [];
   }
 
@@ -123,9 +121,6 @@ class Parser {
 
     let from = new moment(data.date.from);
     let to = new moment(data.date.to);
-
-    console.log("-----------", )
-
 
 
 
@@ -211,9 +206,7 @@ class Parser {
     console.log("ics written to " + path);
   }
 
-  read() {
-    this.content = fs.readFileSync(this.path, "utf8");
-  }
+
 
   entry(entry, defaults) {
     let out = R.mergeDeepLeft(this.line(entry), defaults);
@@ -230,7 +223,6 @@ class Parser {
 
     out = R.pick(["date", "title", "notes"], out);
 
-    console.log(JSON.stringify(out, null, 2));
 
     this.events.push(out);
     return out;
@@ -240,15 +232,6 @@ class Parser {
     let out = line;
 
     out = this.parseLine(out);
-    out = this.checkLine(out);
-
-    // console.log(JSON.stringify(out, null, 2));
-    return out;
-  }
-
-  checkLine(line) {
-    let out = line;
-    console.log("no check right now");
     return out;
   }
 
@@ -291,24 +274,12 @@ class Parser {
     return out;
   }
 
-  parse() {
-    // let defaultAttributes = {
-    //   title: {
-    //     content: 'Title'
-    //     prefix: 'Elementare Typographie I',
-    //     join: ' – '
-    //   },
-    //   date: {
-    //     time: '12:00–14:00'
-    //   },
-    //   notes: {
-    //     prefix: 'Elementare Typographie I',
-    //     join: ' – '
-    //   }
-    // },
+  parse(path) {
 
     // parse frontmatter
-    var content = fm(this.content);
+    var content = fm(
+      fs.readFileSync(path, "utf8")
+    );
 
     let defaults = content.attributes;
 
@@ -319,13 +290,6 @@ class Parser {
       }).date;
     }
 
-    // console.log(JSON.stringify(defaults, null, 2));
-
-    // defaults= {}
-    //
-    // this.entry("30.4.2018 | 18–20Uhr | Frühlingsferien", defaults);
-    // this.entry("30.4.2018, 16:00h, Frühlingsferien", defaults);
-    // this.entry("30.4.2018", defaults);
 
     var isEven = n => n % 2 === 0;
 
@@ -334,24 +298,17 @@ class Parser {
       R.map(R.trim),
       R.split(/[\r\n]+/g /* here comes the line */)
     );
-    // console.log("------d--------------", content.body.split(/[\r\n]+/g)    )
-
-    // console.log("--------------------", splitter(content.body))
 
     let runLIne = item => {
-      console.log("--------------------", item);
       this.entry(item, defaults);
     };
     let data = R.map(runLIne, splitter(content.body));
 
-    // content.attributes
-    // content.body
-    // console.log(content)
   }
 }
 
-let path = "./data/2018-FS-elementare-typographie.txt";
 
-const parser = new Parser(path);
-parser.parse();
+const parser = new Parser();
+parser.parse("./data/Elementare Typographie/2016-FS.txt");
+parser.parse("./data/Elementare Typographie/2018-FS.txt");
 parser.ics("./public/all.ics");
