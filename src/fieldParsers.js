@@ -4,8 +4,22 @@ const R = require("ramda");
 // https://stackoverflow.com/questions/12472976/regex-validate-european-date-format-with-multiple-separators
 const DayDef = "([1-9][.]?|0[1-9][.]?|[12][0-9][.]?|3[01][.]?)";
 const MonthNumberDef = "[1-9][.]?|0[1-9][.]?|1[012][.]?";
-const MonthNameDEDef =
-  "Januar|Jan.?|Februar|Febr.?|Feb.?|März|Mär.?|Marz|Mrz.?|April|Apr.?|Mai.?|Juni|Jun.?|Juli|Jul.?|August|Aug.?|September|Sept.?|Sep.?|Oktober|Okt.?|November|Nov.?|Dezember|Dez.?";
+
+const MonthNameDE = [
+  "Januar|Jan.?",
+  "Februar|Febr.?|Feb.?",
+  "März|Mär.?|Marz|Mrz.?",
+  "April|Apr.?",
+  "Mai.?",
+  "Juni|Jun.?",
+  "Juli|Jul.?",
+  "August|Aug.?",
+  "September|Sept.?|Sep.?",
+  "Oktober|Okt.?",
+  "November|Nov.?",
+  "Dezember|Dez.?",
+]
+const MonthNameDEDef = MonthNameDE.join("|");
 const MonthDef = "(" + MonthNumberDef + "|" + MonthNameDEDef + ")";
 const DateDef = DayDef + "[. ]*" + MonthDef + "[. ]*(19\\d\\d|20\\d\\d)";
 
@@ -25,12 +39,20 @@ const testTimeRange = RegExp("^" + TimeDef + toDef + TimeDef + "$", "i");
 
 const parseDate = txt => {
   let parsed = testDate.exec(txt);
+
+  let month = parsed[2];
+
+  // parse names of month to month
+  MonthNameDE.map((def, index) => {
+    month = month.replace(RegExp(def, "i"), index+1)
+  })
+
   return {
     type: "date",
     date: {
       from: {
         day: parsed[1],
-        month: parsed[2],
+        month: month,
         year: parsed[3]
       }
     }

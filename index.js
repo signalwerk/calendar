@@ -11,16 +11,16 @@ const generator = (icsPath, filePaths) => {
 
 }
 
-
+// https://signalwerk.github.io/calendar/ElementareTypographie.ics
 generator(
   "./public/ElementareTypographie.ics",
   [
     "./data/Elementare Typographie/2016-FS.txt",
     "./data/Elementare Typographie/2018-FS.txt",
-    "./data/sechseläuten.txt",
   ]
 )
 
+// https://signalwerk.github.io/calendar/PublicHoliday.ics
 generator(
   "./public/PublicHoliday.ics",
   [
@@ -28,6 +28,7 @@ generator(
   ]
 )
 
+// https://signalwerk.github.io/calendar/Entsorgung.ics
 generator(
   "./public/Entsorgung.ics",
   [
