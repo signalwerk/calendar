@@ -108,24 +108,40 @@ class Parser {
 
   // generate the icsEvent
   icsEvent(data) {
+    let from = data.date.from;
+    let to = data.date.to;
+
     // zero based month in js
-    if (data.date.from.month) {
-      data.date.from.month = data.date.from.month - 1;
+    if (from.month) {
+      from.month = from.month - 1;
     }
 
     // zero based month in js
-    if (data.date.to.month) {
-      data.date.to.month = data.date.to.month - 1;
+    if (to.month) {
+      to.month = to.month - 1;
     }
 
-    let from = new moment(data.date.from);
-    let to = new moment(data.date.to);
+    from = {
+      minute: from.minute || 0,
+      hour: from.hour || 0,
+      day: from.day || 1,
+      month: from.month || 0,
+      year: from.year || 1900
+    };
+
+    to = {
+      minute: to.minute || 0,
+      hour: to.hour || 0,
+      day: to.day || 1,
+      month: to.month || 0,
+      year: to.year || 1900
+    };
 
     from = new moment(from);
     to = new moment(to);
 
     if (from.diff(to) === 0) {
-      to = from.add(1, "d");
+      to.add(1, "d");
     }
 
     var properties = [
