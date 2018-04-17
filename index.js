@@ -37,5 +37,6 @@ generator(
     "./data/Entsorgung/H355-Karton.txt",
     "./data/Entsorgung/B585-Papier.txt",
     "./data/Entsorgung/B585-Karton.txt",
+    "./data/Entsorgung/reminder.txt",
   ]
 )
