@@ -35,6 +35,11 @@ class Parser {
       out.title = out.title.prefix;
     }
 
+    if (!out.title.prefix && out.title.body) {
+      out.title = out.title.body;
+    }
+
+
     out = R.pick(["date", "title", "notes"], out);
 
     this.events.push(out);
