@@ -32,6 +32,7 @@ generator(
 generator(
   "./public/Entsorgung.ics",
   [
+    "./data/Entsorgung/K14a.txt",
     "./data/Entsorgung/H355-Papier.txt",
     "./data/Entsorgung/H355-Karton.txt",
     "./data/Entsorgung/B585-Papier.txt",
