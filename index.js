@@ -24,7 +24,8 @@ generator(
 generator(
   "./public/PublicHoliday.ics",
   [
-    "./data/sechseläuten.txt",
+    "./data/Feiertage/knabenschiessen.txt",
+    "./data/Feiertage/sechseläuten.txt",
   ]
 )
 
