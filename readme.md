@@ -1,6 +1,5 @@
 ## calendar parser
-
-Some test to build a human editable and machine readable calendar-list.
+Some test to build a human editable (.txt) and machine readable (.ics) calendar-list.
 
 You can create a file with dates:
 ```
