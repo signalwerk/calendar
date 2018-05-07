@@ -11,6 +11,14 @@ const generator = (icsPath, filePaths) => {
 
 }
 
+// https://signalwerk.github.io/calendar/IAD.ics
+generator(
+  "./public/IAD.ics",
+  [
+    "./data/IAD/hackathon.txt",
+  ]
+)
+
 // https://signalwerk.github.io/calendar/ElementareTypographie.ics
 generator(
   "./public/ElementareTypographie.ics",
