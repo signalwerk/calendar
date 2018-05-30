@@ -11,7 +11,7 @@ const generator = (icsPath, filePaths) => {
 
 }
 
-// https://signalwerk.github.io/calendar/IAD.ics
+// https://signalwerk.github.io/calendar/IAD-meetup.ics
 generator(
   "./public/IAD-meetup.ics",
   [
