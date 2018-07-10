@@ -37,6 +37,9 @@ const testDate = RegExp("^" + DateDef + "$", "i");
 const testTime = RegExp("^" + TimeDef + "$", "i");
 const testTimeRange = RegExp("^" + TimeDef + toDef + TimeDef + "$", "i");
 
+// notes
+const testNotes = /^(✏️|notes|Notes)[:]?[ ]?(.*)/;
+
 const parseDate = txt => {
   let parsed = testDate.exec(txt);
 
@@ -56,6 +59,14 @@ const parseDate = txt => {
         year: parsed[3]
       }
     }
+  };
+};
+
+const parseNotes = txt => {
+  let parsed = testNotes.exec(txt);
+  return {
+    type: "notes",
+    notes: parsed[2]
   };
 };
 
@@ -107,6 +118,12 @@ const parseIfIsTimeRange = R.ifElse(
   item => item
 );
 
+const parseIfIsNotes = R.ifElse(
+  R.compose(R.test(testNotes), R.prop("body")),
+  item => parseNotes(item.body),
+  item => item
+);
+
 const parseTitle = item => ({
   type: "title",
   title: { body: item.body },
@@ -117,5 +134,6 @@ var exports = (module.exports = {
   parseIfIsDate,
   parseIfIsTime,
   parseIfIsTimeRange,
+  parseIfIsNotes,
   parseTitle
 });

@@ -7,6 +7,7 @@ const {
   parseIfIsDate,
   parseIfIsTime,
   parseIfIsTimeRange,
+  parseIfIsNotes,
   parseTitle
 } = require("./fieldParsers");
 
@@ -23,7 +24,8 @@ class Parser {
   }
 
   entry(entry, defaults) {
-    let out = R.mergeDeepLeft(this.line(entry), defaults);
+    let parsedEntry = this.line(entry);
+    let out = R.mergeDeepLeft(parsedEntry, defaults);
 
     out.date.to = R.mergeDeepLeft(out.date.to, out.date.from);
 
@@ -39,6 +41,9 @@ class Parser {
       out.title = out.title.body;
     }
 
+    if (parsedEntry.notes && defaults.notes) {
+      out.notes = defaults.notes + "\n" + parsedEntry.notes;
+    }
 
     out = R.pick(["date", "title", "notes"], out);
 
@@ -59,17 +64,29 @@ class Parser {
       R.curry(typeUndefCb(parseIfIsDate)),
       R.curry(typeUndefCb(parseIfIsTime)),
       R.curry(typeUndefCb(parseIfIsTimeRange)),
+      R.curry(typeUndefCb(parseIfIsNotes)),
       R.curry(typeUndefCb(parseTitle))
     )(item);
+  }
+
+  // see https://rosettacode.org/wiki/Tokenize_a_string_with_escaping#JavaScript
+  splitByComma(s) {
+    let esc = "\\";
+    let sep = ",";
+    for (var a = [], t = "", i = 0, e = s.length; i < e; i += 1) {
+      var c = s.charAt(i);
+      if (c == esc) t += s.charAt(++i);
+      else if (c != sep) t += c;
+      else a.push(t), (t = "");
+    }
+    a.push(t);
+    return a;
   }
 
   parseLine(line) {
     // split up the line into components
     // 30.4.2018, 18–20Uhr, Frühlingsferien => ['30.4.2018', '18–20Uhr', 'Frühlingsferien']
-    const splitter = R.compose(
-      R.map(R.trim),
-      R.split(/,|\|/ /* here comes the line */)
-    );
+    const splitter = R.compose(R.map(R.trim), this.splitByComma);
 
     // convert the string array to a object array
     const addType = R.map(value => ({ type: "unknown", body: value }));
@@ -87,6 +104,7 @@ class Parser {
       R.find(R.propEq("type", "date"))(data)
     );
 
+    out = R.mergeDeepLeft(out, R.find(R.propEq("type", "notes"))(data) || {});
     out = R.mergeDeepLeft(out, R.find(R.propEq("type", "title"))(data) || {});
 
     return out;
