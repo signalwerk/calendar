@@ -110,7 +110,6 @@ class Parser {
     return out;
   }
 
-
   parse(path) {
     // parse frontmatter
     var content = fm(fs.readFileSync(path, "utf8"));
@@ -139,9 +138,6 @@ class Parser {
   }
 }
 
-
-
-
-var exports = module.exports = {
+var exports = (module.exports = {
   Parser
-};
+});

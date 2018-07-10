@@ -17,8 +17,8 @@ const MonthNameDE = [
   "September|Sept.?|Sep.?",
   "Oktober|Okt.?",
   "November|Nov.?",
-  "Dezember|Dez.?",
-]
+  "Dezember|Dez.?"
+];
 const MonthNameDEDef = MonthNameDE.join("|");
 const MonthDef = "(" + MonthNumberDef + "|" + MonthNameDEDef + ")";
 const DateDef = DayDef + "[. ]*" + MonthDef + "[. ]*(19\\d\\d|20\\d\\d)";
@@ -47,8 +47,8 @@ const parseDate = txt => {
 
   // parse names of month to month
   MonthNameDE.map((def, index) => {
-    month = month.replace(RegExp(def, "i"), index+1)
-  })
+    month = month.replace(RegExp(def, "i"), index + 1);
+  });
 
   return {
     type: "date",
