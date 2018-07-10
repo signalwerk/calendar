@@ -1,6 +1,6 @@
 ---
 title:
-  prefix: "IAD – Hackathon"
+  prefix: "IAD – web working group"
 date: 17:00–20:00
 ---
 
