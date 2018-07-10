@@ -1,0 +1,9 @@
+---
+title:
+  prefix: "Test"
+date: 17:00–20:00
+notes: Global Notes
+---
+
+24.08.2018, Title of Event, ✏️ Notes of Event
+20 Jul 2018, Title of Event – banana\, apple\, pear, notes: Notes of Event. Made for 1\, 2\ and more things...
