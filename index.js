@@ -18,7 +18,8 @@ generator("./public/IAD-meetup.ics", ["./data/IAD/hackathon.txt"]);
 // https://signalwerk.github.io/calendar/ElementareTypographie.ics
 generator("./public/ElementareTypographie.ics", [
   "./data/Elementare Typographie/2016-FS.txt",
-  "./data/Elementare Typographie/2018-FS.txt"
+  "./data/Elementare Typographie/2018-FS.txt",
+  "./data/Elementare Typographie/2018-HS.txt"
 ]);
 
 // https://signalwerk.github.io/calendar/PublicHoliday.ics
