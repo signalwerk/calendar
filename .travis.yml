@@ -1,8 +1,7 @@
 language: node_js
-node_js:
-  - "8"
+node_js: stable
 install:
-  - npm install
+  - npm ci
 script:
   - bash ./travis/gh-pages.sh
 env:
