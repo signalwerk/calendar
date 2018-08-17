@@ -1,0 +1,784 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:signalwerk-generator
+BEGIN:VEVENT
+UID:849313d0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20180923
+DTEND;VALUE=DATE:20180924
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84933ae0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20181125
+DTEND;VALUE=DATE:20181126
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849361f0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20190210
+DTEND;VALUE=DATE:20190211
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849361f1-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20190519
+DTEND;VALUE=DATE:20190520
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84938900-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,Nationalratswahlen (blanko)
+DTSTART;VALUE=DATE:20191020
+DTEND;VALUE=DATE:20191021
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8493b010-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20191124
+DTEND;VALUE=DATE:20191125
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8493b011-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20200209
+DTEND;VALUE=DATE:20200210
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8493d720-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20200517
+DTEND;VALUE=DATE:20200518
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8493d721-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20200927
+DTEND;VALUE=DATE:20200928
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8493fe30-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20201129
+DTEND;VALUE=DATE:20201130
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84942540-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20210307
+DTEND;VALUE=DATE:20210308
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84944c50-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20210613
+DTEND;VALUE=DATE:20210614
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84944c51-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20210926
+DTEND;VALUE=DATE:20210927
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84947360-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20211128
+DTEND;VALUE=DATE:20211129
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84947361-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20220213
+DTEND;VALUE=DATE:20220214
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84949a70-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20220515
+DTEND;VALUE=DATE:20220516
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8494c180-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20220925
+DTEND;VALUE=DATE:20220926
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8494c181-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20221127
+DTEND;VALUE=DATE:20221128
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8494e890-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20230312
+DTEND;VALUE=DATE:20230313
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8494e891-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20230618
+DTEND;VALUE=DATE:20230619
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84950fa0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,Nationalratswahlen (blanko)
+DTSTART;VALUE=DATE:20231022
+DTEND;VALUE=DATE:20231023
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849536b0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20231126
+DTEND;VALUE=DATE:20231127
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849536b1-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20240303
+DTEND;VALUE=DATE:20240304
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84955dc0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20240609
+DTEND;VALUE=DATE:20240610
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849584d0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20240922
+DTEND;VALUE=DATE:20240923
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849584d1-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20241124
+DTEND;VALUE=DATE:20241125
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8495abe0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20250209
+DTEND;VALUE=DATE:20250210
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8495abe1-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20250518
+DTEND;VALUE=DATE:20250519
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8495d2f0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20250928
+DTEND;VALUE=DATE:20250929
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8495fa00-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20251130
+DTEND;VALUE=DATE:20251201
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84962110-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20260308
+DTEND;VALUE=DATE:20260309
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84964820-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260615
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84964821-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84966f30-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84969640-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8496bd50-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270607
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8496bd51-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,Nationalratswahlen (blanko)
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8496e460-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20271128
+DTEND;VALUE=DATE:20271129
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8496e461-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20280213
+DTEND;VALUE=DATE:20280214
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84970b70-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20280521
+DTEND;VALUE=DATE:20280522
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84973280-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20280924
+DTEND;VALUE=DATE:20280925
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84973281-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20281126
+DTEND;VALUE=DATE:20281127
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84975990-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20290304
+DTEND;VALUE=DATE:20290305
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849780a0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20290610
+DTEND;VALUE=DATE:20290611
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849780a1-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20290923
+DTEND;VALUE=DATE:20290924
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8497a7b0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20291125
+DTEND;VALUE=DATE:20291126
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8497a7b1-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20300210
+DTEND;VALUE=DATE:20300211
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8497cec0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20300519
+DTEND;VALUE=DATE:20300520
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8497f5d0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20300922
+DTEND;VALUE=DATE:20300923
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84981ce0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20301124
+DTEND;VALUE=DATE:20301125
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849843f0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20310209
+DTEND;VALUE=DATE:20310210
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849843f1-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20310518
+DTEND;VALUE=DATE:20310519
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84989210-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,Nationalratswahlen (blanko)
+DTSTART;VALUE=DATE:20311019
+DTEND;VALUE=DATE:20311020
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8498b920-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20311130
+DTEND;VALUE=DATE:20311201
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8498e030-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20320229
+DTEND;VALUE=DATE:20320301
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8498e031-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20320606
+DTEND;VALUE=DATE:20320607
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84990740-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20320926
+DTEND;VALUE=DATE:20320927
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84990741-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20321128
+DTEND;VALUE=DATE:20321129
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84992e50-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20330213
+DTEND;VALUE=DATE:20330214
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84995560-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20330515
+DTEND;VALUE=DATE:20330516
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:84995561-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20330925
+DTEND;VALUE=DATE:20330926
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8499a380-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20331127
+DTEND;VALUE=DATE:20331128
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8499ca90-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20340312
+DTEND;VALUE=DATE:20340313
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8499f1a0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20340618
+DTEND;VALUE=DATE:20340619
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:8499f1a1-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20340924
+DTEND;VALUE=DATE:20340925
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849a18b0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20341126
+DTEND;VALUE=DATE:20341127
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849a18b1-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20350225
+DTEND;VALUE=DATE:20350226
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849a3fc0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20350603
+DTEND;VALUE=DATE:20350604
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849a66d0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,Nationalratswahlen (blanko)
+DTSTART;VALUE=DATE:20351021
+DTEND;VALUE=DATE:20351022
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849a66d1-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20351125
+DTEND;VALUE=DATE:20351126
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849a8de0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20360210
+DTEND;VALUE=DATE:20360211
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849ab4f0-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20360518
+DTEND;VALUE=DATE:20360519
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849ab4f1-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20360928
+DTEND;VALUE=DATE:20360929
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849adc00-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20361130
+DTEND;VALUE=DATE:20361201
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849adc01-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20370308
+DTEND;VALUE=DATE:20370309
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849b2a20-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20370614
+DTEND;VALUE=DATE:20370615
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849b2a21-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20370927
+DTEND;VALUE=DATE:20370928
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:849b5130-a268-11e8-a6f2-63c8890ad9af
+DTSTAMP;TZID=Europe/Zurich:20180817T215721
+SUMMARY:Eidgenössische Volksabstimmung\,(blanko)
+DTSTART;VALUE=DATE:20371129
+DTEND;VALUE=DATE:20371130
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+END:VCALENDAR
