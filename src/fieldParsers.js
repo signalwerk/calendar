@@ -38,7 +38,7 @@ const testTime = RegExp("^" + TimeDef + "$", "i");
 const testTimeRange = RegExp("^" + TimeDef + toDef + TimeDef + "$", "i");
 
 // notes
-const testNotes = /^(✏️|notes|Notes)[:]?[ ]?(.*)/;
+const testNotes = /^(✏️|notes|note|Notes|Note)[:]?[ ]?(.*)/;
 
 const parseDate = txt => {
   let parsed = testDate.exec(txt);
