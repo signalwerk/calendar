@@ -37,3 +37,8 @@ generator("./public/Entsorgung.ics", [
   "./data/Entsorgung/B585-Karton.txt",
   "./data/Entsorgung/reminder.txt"
 ]);
+
+// https://signalwerk.github.io/calendar/votes.ics
+generator("./public/votes.ics", [
+  "./data/Abstimmungen/Eidgen.txt",
+]);
