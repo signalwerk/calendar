@@ -2,8 +2,8 @@ const R = require("ramda");
 
 // 01.01.1900 and 31.12.2099
 // https://stackoverflow.com/questions/12472976/regex-validate-european-date-format-with-multiple-separators
-const DayDef = "([1-9][.]?|0[1-9][.]?|[12][0-9][.]?|3[01][.]?)";
-const MonthNumberDef = "[1-9][.]?|0[1-9][.]?|1[012][.]?";
+const DayDef = "(3[01][.]?|[12][0-9][.]?|0[1-9][.]?|[1-9][.]?)";
+const MonthNumberDef = "1[012][.]?|0[1-9][.]?|[1-9][.]?";
 
 const MonthNameDE = [
   "Januar|Jan.?",
@@ -21,7 +21,7 @@ const MonthNameDE = [
 ];
 const MonthNameDEDef = MonthNameDE.join("|");
 const MonthDef = "(" + MonthNumberDef + "|" + MonthNameDEDef + ")";
-const DateDef = DayDef + "[. ]*" + MonthDef + "[. ]*(19\\d\\d|20\\d\\d)";
+const DateDef = DayDef + "[. ]*" + MonthDef + "[. ]*(19\\d\\d|20\\d\\d|\\d\\d)";
 
 // h
 const hourDef = "([ ]*(h|uhr))*";
@@ -44,6 +44,12 @@ const parseDate = txt => {
   let parsed = testDate.exec(txt);
 
   let month = parsed[2];
+  let year = parseInt(parsed[3]);
+
+  // if the year is just in two digits assume we are speaking about 20??
+  if (year < 1900) {
+    year = year + 2000;
+  }
 
   // parse names of month to month
   MonthNameDE.map((def, index) => {
@@ -56,7 +62,7 @@ const parseDate = txt => {
       from: {
         day: parsed[1],
         month: month,
-        year: parsed[3]
+        year: year
       }
     }
   };
