@@ -2,8 +2,38 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:signalwerk-generator
 BEGIN:VEVENT
-UID:5c49a620-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a053a250-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
+SUMMARY:Eidgenössische Volksabstimmung – Auszähldienst – Feldstrasse 75
+DTSTART;TZID=Europe/Zurich:20180303T100000
+DTEND;TZID=Europe/Zurich:20180303T170000
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:a053c960-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
+SUMMARY:Eidgenössische Volksabstimmung – Auszähldienst – Feldstrasse 75
+DTSTART;TZID=Europe/Zurich:20180304T100000
+DTEND;TZID=Europe/Zurich:20180304T170000
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:a053c961-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
+SUMMARY:Eidgenössische Volksabstimmung – 9 – 16 Uhr
+DTSTART;VALUE=DATE:20180610
+DTEND;VALUE=DATE:20180611
+DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
+ ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
+  Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:a053f070-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – definitv
 DTSTART;VALUE=DATE:20180923
 DTEND;VALUE=DATE:20180924
@@ -13,8 +43,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  entation/medienmitteilungen.msg-id-70548.html
 END:VEVENT
 BEGIN:VEVENT
-UID:5c49cd30-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a053f071-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20181125
 DTEND;VALUE=DATE:20181126
@@ -23,8 +53,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c49f440-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0541780-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20190210
 DTEND;VALUE=DATE:20190211
@@ -33,8 +63,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c49f441-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0541781-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20190519
 DTEND;VALUE=DATE:20190520
@@ -43,8 +73,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c49f442-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0543e90-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – Nationalratswahlen (blanko)
 DTSTART;VALUE=DATE:20191020
 DTEND;VALUE=DATE:20191021
@@ -53,8 +83,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4a1b50-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0543e91-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20191124
 DTEND;VALUE=DATE:20191125
@@ -63,8 +93,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4a1b51-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0543e92-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20200209
 DTEND;VALUE=DATE:20200210
@@ -73,8 +103,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4a4260-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a05465a0-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20200517
 DTEND;VALUE=DATE:20200518
@@ -83,8 +113,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4a4261-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a05465a1-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20200927
 DTEND;VALUE=DATE:20200928
@@ -93,8 +123,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4a6970-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0548cb0-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20201129
 DTEND;VALUE=DATE:20201130
@@ -103,8 +133,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4a6971-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a054b3c0-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20210307
 DTEND;VALUE=DATE:20210308
@@ -113,8 +143,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4a6972-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a054b3c1-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20210613
 DTEND;VALUE=DATE:20210614
@@ -123,8 +153,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4b05b0-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a054dad0-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20210926
 DTEND;VALUE=DATE:20210927
@@ -133,8 +163,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4b2cc0-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a054dad1-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20211128
 DTEND;VALUE=DATE:20211129
@@ -143,8 +173,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4b2cc1-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a05501e0-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20220213
 DTEND;VALUE=DATE:20220214
@@ -153,8 +183,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4b2cc2-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a05501e1-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20220515
 DTEND;VALUE=DATE:20220516
@@ -163,8 +193,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4b53d0-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a05528f0-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20220925
 DTEND;VALUE=DATE:20220926
@@ -173,8 +203,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4b53d1-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a05528f1-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20221127
 DTEND;VALUE=DATE:20221128
@@ -183,8 +213,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4b7ae0-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0555000-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20230312
 DTEND;VALUE=DATE:20230313
@@ -193,8 +223,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4b7ae1-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0555001-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20230618
 DTEND;VALUE=DATE:20230619
@@ -203,8 +233,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4ba1f0-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0557710-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – Nationalratswahlen (blanko)
 DTSTART;VALUE=DATE:20231022
 DTEND;VALUE=DATE:20231023
@@ -213,8 +243,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4ba1f1-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0557711-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20231126
 DTEND;VALUE=DATE:20231127
@@ -223,8 +253,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4ba1f2-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0559e20-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20240303
 DTEND;VALUE=DATE:20240304
@@ -233,8 +263,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4bc900-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0559e21-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20240609
 DTEND;VALUE=DATE:20240610
@@ -243,8 +273,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4bc901-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0559e22-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20240922
 DTEND;VALUE=DATE:20240923
@@ -253,8 +283,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4bf010-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a055c530-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20241124
 DTEND;VALUE=DATE:20241125
@@ -263,8 +293,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4c1720-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a055c531-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20250209
 DTEND;VALUE=DATE:20250210
@@ -273,8 +303,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4c1721-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a055ec40-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20250518
 DTEND;VALUE=DATE:20250519
@@ -283,8 +313,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4c3e30-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a055ec41-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20250928
 DTEND;VALUE=DATE:20250929
@@ -293,8 +323,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4c3e31-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0561350-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20251130
 DTEND;VALUE=DATE:20251201
@@ -303,8 +333,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4c3e32-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0561351-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20260308
 DTEND;VALUE=DATE:20260309
@@ -313,8 +343,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4c6540-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0563a60-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20260614
 DTEND;VALUE=DATE:20260615
@@ -323,8 +353,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4d2890-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0563a61-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
@@ -333,8 +363,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4d4fa0-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0566170-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -343,8 +373,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4d4fa1-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0566171-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
@@ -353,8 +383,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4d76b0-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0568880-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
@@ -363,8 +393,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4d76b1-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a056d6a0-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – Nationalratswahlen (blanko)
 DTSTART;VALUE=DATE:20271024
 DTEND;VALUE=DATE:20271025
@@ -373,8 +403,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4d9dc0-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a056d6a1-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20271128
 DTEND;VALUE=DATE:20271129
@@ -383,8 +413,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4d9dc1-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a056d6a2-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20280213
 DTEND;VALUE=DATE:20280214
@@ -393,8 +423,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4e8820-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a056fdb0-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20280521
 DTEND;VALUE=DATE:20280522
@@ -403,8 +433,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4eaf30-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a056fdb1-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20280924
 DTEND;VALUE=DATE:20280925
@@ -413,8 +443,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4eaf31-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a05724c0-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20281126
 DTEND;VALUE=DATE:20281127
@@ -423,8 +453,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4ed640-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a05724c1-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20290304
 DTEND;VALUE=DATE:20290305
@@ -433,8 +463,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4ed641-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a05724c2-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20290610
 DTEND;VALUE=DATE:20290611
@@ -443,8 +473,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4efd50-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0574bd0-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20290923
 DTEND;VALUE=DATE:20290924
@@ -453,8 +483,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4efd51-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0574bd1-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20291125
 DTEND;VALUE=DATE:20291126
@@ -463,8 +493,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4efd52-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a05772e0-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20300210
 DTEND;VALUE=DATE:20300211
@@ -473,8 +503,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4f2460-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a05772e1-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20300519
 DTEND;VALUE=DATE:20300520
@@ -483,8 +513,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4f2461-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a05799f0-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20300922
 DTEND;VALUE=DATE:20300923
@@ -493,8 +523,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4f2462-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a05799f1-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20301124
 DTEND;VALUE=DATE:20301125
@@ -503,8 +533,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4f4b70-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a05799f2-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20310209
 DTEND;VALUE=DATE:20310210
@@ -513,8 +543,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4f4b71-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a057c100-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20310518
 DTEND;VALUE=DATE:20310519
@@ -523,8 +553,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4f7280-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a057c101-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – Nationalratswahlen (blanko)
 DTSTART;VALUE=DATE:20311019
 DTEND;VALUE=DATE:20311020
@@ -533,8 +563,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4f7281-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a057e810-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20311130
 DTEND;VALUE=DATE:20311201
@@ -543,8 +573,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4f9990-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a057e811-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20320229
 DTEND;VALUE=DATE:20320301
@@ -553,8 +583,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4f9991-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a057e812-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20320606
 DTEND;VALUE=DATE:20320607
@@ -563,8 +593,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4fc0a0-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0580f20-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20320926
 DTEND;VALUE=DATE:20320927
@@ -573,8 +603,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4fc0a1-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0580f21-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20321128
 DTEND;VALUE=DATE:20321129
@@ -583,8 +613,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4fe7b0-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0583630-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20330213
 DTEND;VALUE=DATE:20330214
@@ -593,8 +623,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c4fe7b1-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0583631-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20330515
 DTEND;VALUE=DATE:20330516
@@ -603,8 +633,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c516e50-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0583632-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20330925
 DTEND;VALUE=DATE:20330926
@@ -613,8 +643,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c519560-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0585d40-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20331127
 DTEND;VALUE=DATE:20331128
@@ -623,8 +653,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c519561-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0585d41-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20340312
 DTEND;VALUE=DATE:20340313
@@ -633,8 +663,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c51bc70-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0585d42-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20340618
 DTEND;VALUE=DATE:20340619
@@ -643,8 +673,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c51bc71-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0588450-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20340924
 DTEND;VALUE=DATE:20340925
@@ -653,8 +683,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c51bc72-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0588451-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20341126
 DTEND;VALUE=DATE:20341127
@@ -663,8 +693,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c51e380-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a058ab60-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20350225
 DTEND;VALUE=DATE:20350226
@@ -673,8 +703,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c51e381-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a058ab61-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20350603
 DTEND;VALUE=DATE:20350604
@@ -683,8 +713,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c520a90-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a058ab62-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – Nationalratswahlen (blanko)
 DTSTART;VALUE=DATE:20351021
 DTEND;VALUE=DATE:20351022
@@ -693,8 +723,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c520a91-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a058d270-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20351125
 DTEND;VALUE=DATE:20351126
@@ -703,8 +733,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c520a92-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a058d271-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20360210
 DTEND;VALUE=DATE:20360211
@@ -713,8 +743,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c5231a0-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a058f980-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20360518
 DTEND;VALUE=DATE:20360519
@@ -723,8 +753,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c5231a1-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a058f981-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20360928
 DTEND;VALUE=DATE:20360929
@@ -733,8 +763,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c5258b0-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a058f982-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20361130
 DTEND;VALUE=DATE:20361201
@@ -743,8 +773,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c5258b1-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0592090-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20370308
 DTEND;VALUE=DATE:20370309
@@ -753,8 +783,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c52f4f0-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a0592091-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20370614
 DTEND;VALUE=DATE:20370615
@@ -763,8 +793,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c52f4f1-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a05947a0-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20370927
 DTEND;VALUE=DATE:20370928
@@ -773,8 +803,8 @@ DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:5c52f4f2-b503-11e8-891c-89d95c5dc232
-DTSTAMP;TZID=Europe/Zurich:20180910T141106
+UID:a05947a1-b673-11e8-9159-e98f809c2735
+DTSTAMP;TZID=Europe/Zurich:20180912T100715
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20371129
 DTEND;VALUE=DATE:20371130
