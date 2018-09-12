@@ -1,0 +1,9 @@
+---
+title:
+  prefix: Wahlen – Auszähldienst
+  join: " – "
+---
+
+03.03.2018, 10 – 17 Uhr, Note: Feldstrasse 75
+04.03.2018, 10 – 17 Uhr, Note: Feldstrasse 75
+10.06.2018, 9 – 16 Uhr, Note: Feldstrasse 75

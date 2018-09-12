@@ -40,5 +40,6 @@ generator("./public/Entsorgung.ics", [
 
 // https://signalwerk.github.io/calendar/votes.ics
 generator("./public/votes.ics", [
+  "./data/Abstimmungen/work.txt",
   "./data/Abstimmungen/Eidgen.txt",
 ]);
