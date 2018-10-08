@@ -43,3 +43,8 @@ generator("./public/votes.ics", [
   "./data/Abstimmungen/work.txt",
   "./data/Abstimmungen/Eidgen.txt",
 ]);
+
+// https://signalwerk.github.io/calendar/frontend.ics
+generator("./public/frontend.ics", [
+  "./data/Kurs/frontend-2019-FS.txt",
+]);
