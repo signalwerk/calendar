@@ -1,0 +1,27 @@
+---
+title:
+  prefix: "Elementare Typographie"
+  join: " – "
+date: 18:00–21:30
+notes: Frühlingssemester 2019
+---
+
+18.02.19
+25.02.19
+04.03.19
+11.03.19
+18.03.19
+25.03.19
+01.04.19
+08.04.19, Sechseläuten
+15.04.19
+22.04.19, Ostermontag
+29.04.19, Frühlingsferien
+06.05.19, Frühlingsferien
+13.05.19
+20.05.19
+27.05.19
+03.06.19
+10.06.19, Pfingstmontag
+17.06.19
+24.06.19
