@@ -19,7 +19,8 @@ generator("./public/IAD-meetup.ics", ["./data/IAD/hackathon.txt"]);
 generator("./public/ElementareTypographie.ics", [
   "./data/Elementare Typographie/2016-FS.txt",
   "./data/Elementare Typographie/2018-FS.txt",
-  "./data/Elementare Typographie/2018-HS.txt"
+  "./data/Elementare Typographie/2018-HS.txt",
+  "./data/Elementare Typographie/2019-FS.txt"
 ]);
 
 // https://signalwerk.github.io/calendar/PublicHoliday.ics
