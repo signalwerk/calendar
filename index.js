@@ -20,7 +20,8 @@ generator("./public/ElementareTypographie.ics", [
   "./data/Elementare Typographie/2016-FS.txt",
   "./data/Elementare Typographie/2018-FS.txt",
   "./data/Elementare Typographie/2018-HS.txt",
-  "./data/Elementare Typographie/2019-FS.txt"
+  "./data/Elementare Typographie/2019-FS.txt",
+  "./data/Elementare Typographie/2019-HS.txt"
 ]);
 
 // https://signalwerk.github.io/calendar/PublicHoliday.ics
@@ -42,10 +43,8 @@ generator("./public/Entsorgung.ics", [
 // https://signalwerk.github.io/calendar/votes.ics
 generator("./public/votes.ics", [
   "./data/Abstimmungen/work.txt",
-  "./data/Abstimmungen/Eidgen.txt",
+  "./data/Abstimmungen/Eidgen.txt"
 ]);
 
 // https://signalwerk.github.io/calendar/frontend.ics
-generator("./public/frontend.ics", [
-  "./data/Kurs/frontend-2019-HS.txt",
-]);
+generator("./public/frontend.ics", ["./data/Kurs/frontend-2019-HS.txt"]);
