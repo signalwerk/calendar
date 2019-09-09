@@ -46,7 +46,9 @@ class Parser {
     out.date.to = mergeDeepLeft(out.date.to, out.date.from);
 
     if (out.title.prefix && out.title.body) {
-      out.title = [out.title.prefix, out.title.body].join(out.title.join || ' – ');
+      out.title = [out.title.prefix, out.title.body].join(
+        out.title.join || " – "
+      );
     }
 
     if (out.title.prefix && !out.title.body) {
@@ -58,7 +60,7 @@ class Parser {
     }
 
     if (parsedEntry.notes && defaults.notes) {
-      out.notes =  parsedEntry.notes;
+      out.notes = defaults.notes + "\n" + parsedEntry.notes;
     }
 
     out = pick(["date", "title", "notes"], out);
@@ -166,7 +168,7 @@ class Parser {
     let runLine = item => {
       this.entry(item, defaults);
     };
-    
+
     map(runLine, splitter(content.body));
   }
 }
