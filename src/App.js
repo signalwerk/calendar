@@ -9,7 +9,6 @@ import "./App.css";
 const demoContent = `---
 title:
   prefix: "Meetup"
-  join: " – "
 date: 18:00–22:00
 notes: bring beer.
 ---

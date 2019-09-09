@@ -46,7 +46,7 @@ class Parser {
     out.date.to = mergeDeepLeft(out.date.to, out.date.from);
 
     if (out.title.prefix && out.title.body) {
-      out.title = [out.title.prefix, out.title.body].join(out.title.join);
+      out.title = [out.title.prefix, out.title.body].join(out.title.join || ' – ');
     }
 
     if (out.title.prefix && !out.title.body) {
@@ -58,7 +58,7 @@ class Parser {
     }
 
     if (parsedEntry.notes && defaults.notes) {
-      out.notes = defaults.notes + "\n" + parsedEntry.notes;
+      out.notes =  parsedEntry.notes;
     }
 
     out = pick(["date", "title", "notes"], out);
