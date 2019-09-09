@@ -6,8 +6,18 @@ import { saveAs } from "file-saver";
 
 import "./App.css";
 
+const demoContent = `---
+title:
+  prefix: "Meetup"
+  join: " – "
+date: 18:00–22:00
+notes: bring beer.
+---
+22.2.2026, HTML
+29.2.2026, 16:00–17:00, JS, notes: it's nice`;
+
 function App() {
-  const [content, setContent] = useState("");
+  const [content, setContent] = useState(demoContent);
   let parser = new Parser();
 
   parser.parse(content);
@@ -61,9 +71,18 @@ function App() {
                       {event.date.from.minute}
                     </span>
                   )}
-                  –{event.date.to.day}
+                  {" – "}
+                  {event.date.to.day}
                   {event.date.to.month}
                   {event.date.to.year}
+                  {event.date.to.hour && event.date.to.minute && (
+                    <span>
+                      {" "}
+                      {event.date.to.hour}
+                      {":"}
+                      {event.date.to.minute}
+                    </span>
+                  )}
                 </p>
                 {event.notes && <p>{event.notes}</p>}
               </div>

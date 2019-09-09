@@ -3,6 +3,11 @@
   width: 94%;
   max-width: 30rem;
   margin: 0 auto;
+
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  margin-left: auto;
 }
 
 .App-input {
