@@ -1,7 +1,7 @@
 ## calendar parser
-Some test to build a human editable (.txt) and machine readable (.ics) calendar-list.
+A human editable (.txt) and machine readable (.ics) calendar-list.
 
-You can create a file with dates:
+You can create a text with dates:
 ```
 21.3.2016, 10–11, Meeting 
 22.3.2016, Birthday
