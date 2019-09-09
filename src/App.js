@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 
 import Parser from "./lib/Parser";
-import icsExporter  from "./lib/icsExporter";
+import icsExporter from "./lib/icsExporter";
 import { saveAs } from "file-saver";
 
 import "./App.css";
-
 
 function App() {
   const [content, setContent] = useState("");
@@ -32,9 +31,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Events</p>
+        <h1>Events</h1>
 
-        <button onClick={handleClick}>save</button>
+        {parser.events && parser.events.length > 0 && (
+          <button className="App-save" onClick={handleClick}>
+            save .ics-file
+          </button>
+        )}
         <textarea
           className="App-input"
           value={content}
