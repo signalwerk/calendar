@@ -1,7 +1,7 @@
-const moment = require("moment");
-const { Component, Property } = require("immutable-ics");
-const uuid = require("uuid");
-const fs = require("fs");
+import moment from "moment";
+import { Property, Component } from "immutable-ics";
+import uuid from "uuid";
+
 const now = new moment();
 
 class icsExporter {
@@ -11,7 +11,13 @@ class icsExporter {
 
   // generate the icsEvent
   icsEvent(data) {
-    let { date: { from }, date: { to }, title, url, notes } = data;
+    let {
+      date: { from },
+      date: { to },
+      title,
+      url,
+      notes
+    } = data;
     var properties = [];
 
     properties.push(
@@ -135,7 +141,7 @@ class icsExporter {
   }
 
   // generate the ics
-  ics(path) {
+  ics() {
     var events = [];
 
     this.events.forEach(value => {
@@ -158,11 +164,8 @@ class icsExporter {
     });
 
     let out = calendar.toString();
-    fs.writeFileSync(path, out);
-    console.log("ics written to " + path);
+    return out;
   }
 }
 
-var exports = (module.exports = {
-  icsExporter
-});
+export default icsExporter;

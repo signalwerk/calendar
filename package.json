@@ -1,32 +1,44 @@
 {
   "name": "calendar",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "npm run start",
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/signalwerk/calendar.git"
-  },
-  "keywords": [
-    "calendar",
-    "ica"
-  ],
-  "author": "Stefan Huber",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/signalwerk/calendar/issues"
-  },
-  "homepage": "https://github.com/signalwerk/calendar#readme",
+  "version": "0.1.0",
+  "private": true,
+  "homepage" : "http://signalwerk.github.io/calendar",
   "dependencies": {
+    "file-saver": "^2.0.2",
     "front-matter": "^2.3.0",
     "immutable-ics": "^0.4.0",
     "moment": "^2.22.0",
-    "ramda": "^0.25.0",
+    "ramda": "^0.26.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1",
     "uuid": "^3.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build-ics": "babel-node index.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.6.0"
   }
 }

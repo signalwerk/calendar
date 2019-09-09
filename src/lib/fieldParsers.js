@@ -1,4 +1,4 @@
-const R = require("ramda");
+import { ifElse, compose, test, prop } from "ramda";
 
 // 01.01.1900 and 31.12.2099
 // https://stackoverflow.com/questions/12472976/regex-validate-european-date-format-with-multiple-separators
@@ -19,6 +19,7 @@ const MonthNameDE = [
   "November|Nov.?",
   "Dezember|Dez.?"
 ];
+
 const MonthNameDEDef = MonthNameDE.join("|");
 const MonthDef = "(" + MonthNumberDef + "|" + MonthNameDEDef + ")";
 const DateDef = DayDef + "[. ]*" + MonthDef + "[. ]*(19\\d\\d|20\\d\\d|\\d\\d)";
@@ -28,7 +29,6 @@ const hourDef = "([ ]*(h|uhr))*";
 
 // 00:01 - 23:59
 const TimeDef = "([01]\\d|2[0-3]):?([0-5]\\d)?" + hourDef;
-const TimeRange = "([01]\\d|2[0-3]):?([0-5]\\d)?" + hourDef;
 
 // to
 const toDef = "[ ]*([-–]|to|bis)[ ]*";
@@ -52,7 +52,7 @@ const parseDate = txt => {
   }
 
   // parse names of month to month
-  MonthNameDE.map((def, index) => {
+  MonthNameDE.forEach((def, index) => {
     month = month.replace(RegExp(def, "i"), index + 1);
   });
 
@@ -106,40 +106,44 @@ const parseTimeRange = txt => {
   };
 };
 
-const parseIfIsDate = R.ifElse(
-  R.compose(R.test(testDate), R.prop("body")),
+export const parseIfIsDate = ifElse(
+  compose(
+    test(testDate),
+    prop("body")
+  ),
   item => parseDate(item.body),
   item => item
 );
 
-const parseIfIsTime = R.ifElse(
-  R.compose(R.test(testTime), R.prop("body")),
+export const parseIfIsTime = ifElse(
+  compose(
+    test(testTime),
+    prop("body")
+  ),
   item => parseTime(item.body),
   item => item
 );
 
-const parseIfIsTimeRange = R.ifElse(
-  R.compose(R.test(testTimeRange), R.prop("body")),
+export const parseIfIsTimeRange = ifElse(
+  compose(
+    test(testTimeRange),
+    prop("body")
+  ),
   item => parseTimeRange(item.body),
   item => item
 );
 
-const parseIfIsNotes = R.ifElse(
-  R.compose(R.test(testNotes), R.prop("body")),
+export const parseIfIsNotes = ifElse(
+  compose(
+    test(testNotes),
+    prop("body")
+  ),
   item => parseNotes(item.body),
   item => item
 );
 
-const parseTitle = item => ({
+export const parseTitle = item => ({
   type: "title",
   title: { body: item.body },
   body: item.body
-});
-
-var exports = (module.exports = {
-  parseIfIsDate,
-  parseIfIsTime,
-  parseIfIsTimeRange,
-  parseIfIsNotes,
-  parseTitle
 });

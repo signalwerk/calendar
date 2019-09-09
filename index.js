@@ -1,22 +1,24 @@
-const { Parser } = require("./src/Parser");
-const { icsExporter } = require("./src/icsExporter");
+import Parser from "./src/lib/Parser";
+import icsExporter from "./src/lib/icsExporter";
+import fs from "fs";
 
 const generator = (icsPath, filePaths) => {
   let parser = new Parser();
-  filePaths.map(path => parser.parse(path));
+  filePaths.map(path => parser.parse(fs.readFileSync(path, "utf8")));
 
   let ics = new icsExporter(parser.events);
-  ics.ics(icsPath);
+  let out = ics.ics();
+  fs.writeFileSync(icsPath, out);
 };
 
 // https://signalwerk.github.io/calendar/test.ics
-// generator("./public/test.ics", ["./data/tests/fieldparser.txt"]);
+// generator("./build/test.ics", ["./data/tests/fieldparser.txt"]);
 
 // https://signalwerk.github.io/calendar/IAD-meetup.ics
-generator("./public/IAD-meetup.ics", ["./data/IAD/hackathon.txt"]);
+generator("./build/IAD-meetup.ics", ["./data/IAD/hackathon.txt"]);
 
 // https://signalwerk.github.io/calendar/ElementareTypographie.ics
-generator("./public/ElementareTypographie.ics", [
+generator("./build/ElementareTypographie.ics", [
   "./data/Elementare Typographie/2016-FS.txt",
   "./data/Elementare Typographie/2018-FS.txt",
   "./data/Elementare Typographie/2018-HS.txt",
@@ -25,13 +27,13 @@ generator("./public/ElementareTypographie.ics", [
 ]);
 
 // https://signalwerk.github.io/calendar/PublicHoliday.ics
-generator("./public/PublicHoliday.ics", [
+generator("./build/PublicHoliday.ics", [
   "./data/Feiertage/knabenschiessen.txt",
   "./data/Feiertage/sechseläuten.txt"
 ]);
 
 // https://signalwerk.github.io/calendar/Entsorgung.ics
-generator("./public/Entsorgung.ics", [
+generator("./build/Entsorgung.ics", [
   "./data/Entsorgung/K14a.txt",
   "./data/Entsorgung/H355-Papier.txt",
   "./data/Entsorgung/H355-Karton.txt",
@@ -41,10 +43,10 @@ generator("./public/Entsorgung.ics", [
 ]);
 
 // https://signalwerk.github.io/calendar/votes.ics
-generator("./public/votes.ics", [
+generator("./build/votes.ics", [
   "./data/Abstimmungen/work.txt",
   "./data/Abstimmungen/Eidgen.txt"
 ]);
 
 // https://signalwerk.github.io/calendar/frontend.ics
-generator("./public/frontend.ics", ["./data/Kurs/frontend-2019-HS.txt"]);
+generator("./build/frontend.ics", ["./data/Kurs/frontend-2019-HS.txt"]);
