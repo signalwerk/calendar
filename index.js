@@ -49,4 +49,4 @@ generator("./build/votes.ics", [
 ]);
 
 // https://signalwerk.github.io/calendar/frontend.ics
-generator("./build/frontend.ics", ["./data/Kurs/frontend-2019-HS.txt"]);
+generator("./build/frontend.ics", ["./data/Kurs/frontend-2020-FS.txt"]);
