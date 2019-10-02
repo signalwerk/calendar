@@ -117,9 +117,30 @@ function App() {
                     </span>
                   )}
                 </p>
-                {event.notes && <p>✏️ {event.notes}</p>}
-                {event.location && <p>📍 {event.location}</p>}
-                {event.url && <p>🔗 {event.url}</p>}
+                {event.notes && (
+                  <p>
+                    <span role="img" aria-label="notes">
+                      ✏️
+                    </span>{" "}
+                    {event.notes}
+                  </p>
+                )}
+                {event.location && (
+                  <p>
+                    <span role="img" aria-label="location">
+                      📍
+                    </span>{" "}
+                    {event.location}
+                  </p>
+                )}
+                {event.url && (
+                  <p>
+                    <span role="img" aria-label="url">
+                      🔗
+                    </span>{" "}
+                    {event.url}
+                  </p>
+                )}
 
                 <details>
                   <summary>Debug-Infos</summary>
