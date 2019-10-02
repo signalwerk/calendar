@@ -39,6 +39,9 @@ const testTimeRange = RegExp("^" + TimeDef + toDef + TimeDef + "$", "i");
 
 // notes
 const testNotes = /^(✏️|notes|note|Notes|Note)[:]?[ ]?(.*)/;
+const testLocation = /^(📍|place|location|ort)[:]?[ ]?(.*)/;
+
+const testUrl = /^(http|www)(.*)/;
 
 const parseDate = txt => {
   let parsed = testDate.exec(txt);
@@ -75,6 +78,24 @@ const parseNotes = txt => {
     notes: parsed[2]
   };
 };
+
+
+const parseLocation = txt => {
+  let parsed = testLocation.exec(txt);
+  return {
+    type: "location",
+    location: parsed[2]
+  };
+};
+
+const parseUrl = txt => {
+  let parsed = testUrl.exec(txt);
+  return {
+    type: "url",
+    url: parsed[0]
+  };
+};
+
 
 const parseTime = txt => {
   let parsed = testTime.exec(txt);
@@ -139,6 +160,24 @@ export const parseIfIsNotes = ifElse(
     prop("body")
   ),
   item => parseNotes(item.body),
+  item => item
+);
+
+export const parseIfIsLocation = ifElse(
+  compose(
+    test(testLocation),
+    prop("body")
+  ),
+  item => parseLocation(item.body),
+  item => item
+);
+
+export const parseIfIsUrl = ifElse(
+  compose(
+    test(testUrl),
+    prop("body")
+  ),
+  item => parseUrl(item.body),
   item => item
 );
 

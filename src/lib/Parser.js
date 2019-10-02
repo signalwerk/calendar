@@ -21,6 +21,8 @@ import {
   parseIfIsTime,
   parseIfIsTimeRange,
   parseIfIsNotes,
+  parseIfIsUrl,
+  parseIfIsLocation,
   parseTitle
 } from "./fieldParsers";
 
@@ -63,7 +65,7 @@ class Parser {
       out.notes = defaults.notes + "\n" + parsedEntry.notes;
     }
 
-    out = pick(["date", "title", "notes"], out);
+    out = pick(["date", "title", "notes", "location", "url"], out);
 
     this.events.push(out);
     return out;
@@ -83,6 +85,8 @@ class Parser {
       curry(typeUndefCb(parseIfIsTime)),
       curry(typeUndefCb(parseIfIsTimeRange)),
       curry(typeUndefCb(parseIfIsNotes)),
+      curry(typeUndefCb(parseIfIsUrl)),
+      curry(typeUndefCb(parseIfIsLocation)),
       curry(typeUndefCb(parseTitle))
     )(item);
   }
@@ -134,6 +138,8 @@ class Parser {
     );
 
     out = mergeDeepLeft(out, find(propEq("type", "notes"))(data) || {});
+    out = mergeDeepLeft(out, find(propEq("type", "location"))(data) || {});
+    out = mergeDeepLeft(out, find(propEq("type", "url"))(data) || {});
     out = mergeDeepLeft(out, find(propEq("type", "title"))(data) || {});
 
     return out;
@@ -141,7 +147,18 @@ class Parser {
 
   parse(str) {
     // parse frontmatter
-    var content = fm(str);
+    var content = { body: str };
+
+    if (fm.test(str)) {
+      try {
+        // try to parse the frontmatter
+        content = fm(str);
+      } catch (err) {
+        // remove broken frontmatter
+        content.body = content.body.replace(/^---(.|[\r\n])*---/, "");
+        console.log("illegal frontmatter header");
+      }
+    }
 
     let _def = {
       date: "1.1.1970",

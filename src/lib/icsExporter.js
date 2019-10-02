@@ -16,6 +16,7 @@ class icsExporter {
       date: { to },
       title,
       url,
+      location,
       notes
     } = data;
     var properties = [];
@@ -119,6 +120,15 @@ class icsExporter {
           parameters: {
             VALUE: "URI"
           }
+        })
+      );
+    }
+
+    if (location) {
+      properties.push(
+        new Property({
+          name: "LOCATION",
+          value: location,
         })
       );
     }
