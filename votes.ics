@@ -2,806 +2,884 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:signalwerk-generator
 BEGIN:VEVENT
-UID:73e91830-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c52ff970-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Wahlen – Auszähldienst
 DTSTART;TZID=Europe/Zurich:20180303T100000
 DTEND;TZID=Europe/Zurich:20180303T170000
 DESCRIPTION:Feldstrasse 75
 END:VEVENT
 BEGIN:VEVENT
-UID:73e91831-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5302080-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Wahlen – Auszähldienst
 DTSTART;TZID=Europe/Zurich:20180304T100000
 DTEND;TZID=Europe/Zurich:20180304T170000
 DESCRIPTION:Feldstrasse 75
 END:VEVENT
 BEGIN:VEVENT
-UID:73e93f40-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5302081-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Wahlen – Auszähldienst – 9 – 16 Uhr
 DTSTART;VALUE=DATE:20180610
 DTEND;VALUE=DATE:20180611
 DESCRIPTION:Feldstrasse 75
 END:VEVENT
 BEGIN:VEVENT
-UID:73e93f41-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5302082-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – definitv
 DTSTART;VALUE=DATE:20180923
 DTEND;VALUE=DATE:20180924
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.\nhttps://www.admin.ch/gov/de/start/dokum
  entation/medienmitteilungen.msg-id-70548.html
 END:VEVENT
 BEGIN:VEVENT
-UID:73e93f42-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5304790-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20181125
 DTEND;VALUE=DATE:20181126
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73e96650-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5304791-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20190210
 DTEND;VALUE=DATE:20190211
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73e96651-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5306ea0-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20190519
 DTEND;VALUE=DATE:20190520
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73e96652-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5306ea1-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – Nationalratswahlen (blanko)
 DTSTART;VALUE=DATE:20191020
 DTEND;VALUE=DATE:20191021
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73e98d60-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5306ea2-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20191124
 DTEND;VALUE=DATE:20191125
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73e98d61-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c53095b0-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20200209
 DTEND;VALUE=DATE:20200210
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73e98d62-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c53095b1-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20200517
 DTEND;VALUE=DATE:20200518
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73e9b470-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c53095b2-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20200927
 DTEND;VALUE=DATE:20200928
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73e9b471-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c530bcc0-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20201129
 DTEND;VALUE=DATE:20201130
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73e9b472-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c530e3d0-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20210307
 DTEND;VALUE=DATE:20210308
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73e9db80-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5310ae0-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20210613
 DTEND;VALUE=DATE:20210614
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73e9db81-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5310ae1-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20210926
 DTEND;VALUE=DATE:20210927
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ea0290-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c53131f0-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20211128
 DTEND;VALUE=DATE:20211129
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ea0291-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c53131f1-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20220213
 DTEND;VALUE=DATE:20220214
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ea29a0-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5315900-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20220515
 DTEND;VALUE=DATE:20220516
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ea29a1-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5315901-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20220925
 DTEND;VALUE=DATE:20220926
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ea29a2-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5318010-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20221127
 DTEND;VALUE=DATE:20221128
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ea50b0-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5318011-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20230312
 DTEND;VALUE=DATE:20230313
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ea50b1-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5318012-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20230618
 DTEND;VALUE=DATE:20230619
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ea50b2-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c531a720-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – Nationalratswahlen (blanko)
 DTSTART;VALUE=DATE:20231022
 DTEND;VALUE=DATE:20231023
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ea77c0-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c531a721-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20231126
 DTEND;VALUE=DATE:20231127
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ea77c1-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c531a722-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20240303
 DTEND;VALUE=DATE:20240304
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ea77c2-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c531ce30-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20240609
 DTEND;VALUE=DATE:20240610
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ea9ed0-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c531ce31-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20240922
 DTEND;VALUE=DATE:20240923
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ea9ed1-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c531f540-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20241124
 DTEND;VALUE=DATE:20241125
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ea9ed2-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c531f541-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20250209
 DTEND;VALUE=DATE:20250210
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73eac5e0-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c531f542-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20250518
 DTEND;VALUE=DATE:20250519
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73eac5e1-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5321c50-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20250928
 DTEND;VALUE=DATE:20250929
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73eac5e2-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5321c51-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20251130
 DTEND;VALUE=DATE:20251201
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73eaecf0-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5321c52-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20260308
 DTEND;VALUE=DATE:20260309
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73eaecf1-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5324360-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20260614
 DTEND;VALUE=DATE:20260615
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73eaecf2-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5324361-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73eaecf3-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5324362-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73eb1400-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5326a70-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73eb3b10-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5326a71-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73eb3b11-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5329180-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – Nationalratswahlen (blanko)
 DTSTART;VALUE=DATE:20271024
 DTEND;VALUE=DATE:20271025
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73eb6220-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5329181-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20271128
 DTEND;VALUE=DATE:20271129
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73eb8930-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5329182-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20280213
 DTEND;VALUE=DATE:20280214
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ebb040-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c532dfa0-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20280521
 DTEND;VALUE=DATE:20280522
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ebb041-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c53306b0-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20280924
 DTEND;VALUE=DATE:20280925
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ebd750-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c53306b1-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20281126
 DTEND;VALUE=DATE:20281127
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ebd751-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5332dc0-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20290304
 DTEND;VALUE=DATE:20290305
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ebfe60-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5332dc1-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20290610
 DTEND;VALUE=DATE:20290611
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ec2570-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c53354d0-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20290923
 DTEND;VALUE=DATE:20290924
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ec4c80-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c533a2f0-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20291125
 DTEND;VALUE=DATE:20291126
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ec7390-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c533a2f1-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20300210
 DTEND;VALUE=DATE:20300211
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ec7391-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5341820-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20300519
 DTEND;VALUE=DATE:20300520
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ec9aa0-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5341821-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20300922
 DTEND;VALUE=DATE:20300923
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ec9aa1-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5343f30-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20301124
 DTEND;VALUE=DATE:20301125
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ecc1b0-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5346640-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20310209
 DTEND;VALUE=DATE:20310210
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ecc1b1-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5346641-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20310518
 DTEND;VALUE=DATE:20310519
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ed0fd0-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5348d50-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – Nationalratswahlen (blanko)
 DTSTART;VALUE=DATE:20311019
 DTEND;VALUE=DATE:20311020
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ed36e0-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c534b460-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20311130
 DTEND;VALUE=DATE:20311201
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ed5df0-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c534b461-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20320229
 DTEND;VALUE=DATE:20320301
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ed8500-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c534db70-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20320606
 DTEND;VALUE=DATE:20320607
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ed8501-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c534db71-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20320926
 DTEND;VALUE=DATE:20320927
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73edac10-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5350280-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20321128
 DTEND;VALUE=DATE:20321129
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73edac11-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c53577b0-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20330213
 DTEND;VALUE=DATE:20330214
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73edd320-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5359ec0-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20330515
 DTEND;VALUE=DATE:20330516
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73edd321-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5359ec1-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20330925
 DTEND;VALUE=DATE:20330926
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73edfa30-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c535c5d0-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20331127
 DTEND;VALUE=DATE:20331128
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73edfa31-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c535ece0-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20340312
 DTEND;VALUE=DATE:20340313
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ee2140-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c535ece1-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20340618
 DTEND;VALUE=DATE:20340619
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ee2141-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c53613f0-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20340924
 DTEND;VALUE=DATE:20340925
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ee4850-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5363b00-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20341126
 DTEND;VALUE=DATE:20341127
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ee4851-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5363b01-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20350225
 DTEND;VALUE=DATE:20350226
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ee6f60-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5366210-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20350603
 DTEND;VALUE=DATE:20350604
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ee9670-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5368920-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – Nationalratswahlen (blanko)
 DTSTART;VALUE=DATE:20351021
 DTEND;VALUE=DATE:20351022
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73eebd80-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5368921-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20351125
 DTEND;VALUE=DATE:20351126
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73eee490-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c536b030-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20360210
 DTEND;VALUE=DATE:20360211
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73eee491-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c536d740-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20360518
 DTEND;VALUE=DATE:20360519
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ef0ba0-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c536d741-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20360928
 DTEND;VALUE=DATE:20360929
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ef0ba1-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c536fe50-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20361130
 DTEND;VALUE=DATE:20361201
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ef0ba2-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5372560-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20370308
 DTEND;VALUE=DATE:20370309
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ef32b0-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c5379a90-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20370614
 DTEND;VALUE=DATE:20370615
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ef32b1-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c537c1a0-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20370927
 DTEND;VALUE=DATE:20370928
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
 END:VEVENT
 BEGIN:VEVENT
-UID:73ef32b2-dfa3-11e9-941b-9fec42e055eb
-DTSTAMP;TZID=Europe/Zurich:20190925T144752
+UID:c537e8b0-e52f-11e9-8e65-9f69a8e01d12
+DTSTAMP;TZID=Europe/Zurich:20191002T161454
 SUMMARY:Eidgenössische Volksabstimmung – (blanko)
 DTSTART;VALUE=DATE:20371129
 DTEND;VALUE=DATE:20371130
+URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
