@@ -2,7 +2,7 @@ import { ifElse, compose, test, prop } from "ramda";
 
 // 01.01.1900 and 31.12.2099
 // https://stackoverflow.com/questions/12472976/regex-validate-european-date-format-with-multiple-separators
-const DayDef = "(3[01][.]?|[12][0-9][.]?|0[1-9][.]?|[1-9][.]?)";
+const DayDef = "(3[01]|[12][0-9]|0[1-9]|[1-9])";
 const MonthNumberDef = "1[012][.]?|0[1-9][.]?|[1-9][.]?";
 
 const MonthNameDE = [
@@ -22,13 +22,13 @@ const MonthNameDE = [
 
 const MonthNameDEDef = MonthNameDE.join("|");
 const MonthDef = "(" + MonthNumberDef + "|" + MonthNameDEDef + ")";
-const DateDef = DayDef + "[. ]*" + MonthDef + "[. ]*(19\\d\\d|20\\d\\d|\\d\\d)";
+const DateDef = DayDef + "[. ]+" + MonthDef + "[. ]+(19\\d\\d|20\\d\\d|\\d\\d)";
 
 // h
 const hourDef = "([ ]*(h|uhr))*";
 
-// 00:01 - 23:59
-const TimeDef = "([01]\\d|2[0-3]):?([0-5]\\d)?" + hourDef;
+// 00:01 - 23:59 or 00.01 - 23.59
+const TimeDef = "([01]\\d|2[0-3])[.:]?([0-5]\\d)?" + hourDef;
 
 // to
 const toDef = "[ ]*([-–]|to|bis)[ ]*";
@@ -46,6 +46,7 @@ const testUrl = /^(http|www)(.*)/;
 const parseDate = txt => {
   let parsed = testDate.exec(txt);
 
+  let day = parseInt(parsed[1]);
   let month = parsed[2];
   let year = parseInt(parsed[3]);
 
@@ -59,11 +60,13 @@ const parseDate = txt => {
     month = month.replace(RegExp(def, "i"), index + 1);
   });
 
+  month = parseInt(month);
+
   return {
     type: "date",
     date: {
       from: {
-        day: parsed[1],
+        day: day,
         month: month,
         year: year
       }
@@ -75,16 +78,15 @@ const parseNotes = txt => {
   let parsed = testNotes.exec(txt);
   return {
     type: "notes",
-    notes: parsed[2]
+    notes: parsed[2].trim()
   };
 };
-
 
 const parseLocation = txt => {
   let parsed = testLocation.exec(txt);
   return {
     type: "location",
-    location: parsed[2]
+    location: parsed[2].trim()
   };
 };
 
@@ -92,10 +94,9 @@ const parseUrl = txt => {
   let parsed = testUrl.exec(txt);
   return {
     type: "url",
-    url: parsed[0]
+    url: parsed[0].trim()
   };
 };
-
 
 const parseTime = txt => {
   let parsed = testTime.exec(txt);
@@ -103,8 +104,8 @@ const parseTime = txt => {
     type: "time",
     date: {
       from: {
-        hour: parsed[1],
-        minute: parsed[2]
+        hour: parseInt(parsed[1]),
+        minute: parseInt(parsed[2])
       }
     }
   };
@@ -116,12 +117,12 @@ const parseTimeRange = txt => {
     type: "time",
     date: {
       from: {
-        hour: parsed[1],
-        minute: parsed[2]
+        hour: parseInt(parsed[1]),
+        minute: parseInt(parsed[2])
       },
       to: {
-        hour: parsed[6],
-        minute: parsed[7]
+        hour: parseInt(parsed[6]),
+        minute: parseInt(parsed[7])
       }
     }
   };
@@ -183,6 +184,6 @@ export const parseIfIsUrl = ifElse(
 
 export const parseTitle = item => ({
   type: "title",
-  title: { body: item.body },
-  body: item.body
+  title: { body: item.body.trim() },
+  body: item.body.trim()
 });
