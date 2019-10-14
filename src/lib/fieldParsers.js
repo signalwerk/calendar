@@ -38,8 +38,8 @@ const testTime = RegExp("^" + TimeDef + "$", "i");
 const testTimeRange = RegExp("^" + TimeDef + toDef + TimeDef + "$", "i");
 
 // notes
-const testNotes = /^(✏️|notes|note|Notes|Note)[:]?[ ]?(.*)/;
-const testLocation = /^(📍|place|location|ort)[:]?[ ]?(.*)/;
+const testNotes = /^(✏️|Notes|Note)[:]?[ ]?(.*)/i;
+const testLocation = /^(📍|place|location|ort|where|wo)[:]?[ ]?(.*)/i;
 
 const testUrl = /^(http|www)(.*)/;
 
