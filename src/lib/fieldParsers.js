@@ -3,7 +3,7 @@ import { ifElse, compose, test, prop } from "ramda";
 // 01.01.1900 and 31.12.2099
 // https://stackoverflow.com/questions/12472976/regex-validate-european-date-format-with-multiple-separators
 const DayDef = "(3[01]|[12][0-9]|0[1-9]|[1-9])";
-const MonthNumberDef = "1[012][.]?|0[1-9][.]?|[1-9][.]?";
+const MonthNumberDef = "1[012]|0\\d|\\d";
 
 const MonthNameDE = [
   "Januar|Jan.?",
@@ -25,7 +25,7 @@ const MonthDef = "(" + MonthNumberDef + "|" + MonthNameDEDef + ")";
 const DateDef = DayDef + "[. ]+" + MonthDef + "[. ]+(19\\d\\d|20\\d\\d|\\d\\d)";
 
 // h
-const hourDef = "([ ]*(h|uhr))*";
+const hourDef = "([ ]*(h|uhr))?";
 
 // 00:01 - 23:59 or 00.01 - 23.59
 const TimeDef = "([01]\\d|2[0-3])[.:]?([0-5]\\d)?" + hourDef;
