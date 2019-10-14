@@ -1,8 +1,26 @@
 import moment from "moment";
 import { Property, Component } from "immutable-ics";
-import uuid from "uuid";
+import uuidv5 from "uuid/v5";
 
-const now = new moment();
+// const nameSpace = "exporter...0.0.1".split(/(?=.)/g);
+const nameSpace = [
+  "e",
+  "x",
+  "p",
+  "o",
+  "r",
+  "t",
+  "e",
+  "r",
+  ".",
+  ".",
+  ".",
+  "0",
+  ".",
+  "0",
+  ".",
+  "1"
+];
 
 class icsExporter {
   constructor(events) {
@@ -20,25 +38,6 @@ class icsExporter {
       notes
     } = data;
     var properties = [];
-
-    properties.push(
-      new Property({
-        name: "UID",
-        value: uuid.v1()
-      }),
-      new Property({
-        name: "DTSTAMP",
-        value: now.toDate(),
-        parameters: {
-          // VALUE: 'DATE-TIME',
-          TZID: "Europe/Zurich"
-        }
-      }),
-      new Property({
-        name: "SUMMARY",
-        value: title || "no Title"
-      })
-    );
 
     // zero based month in js
     if (from.month) {
@@ -68,6 +67,31 @@ class icsExporter {
 
     from = new moment(from);
     to = new moment(to);
+
+    properties.push(
+      new Property({
+        name: "UID",
+        value: uuidv5(JSON.stringify(data), nameSpace)
+      }),
+
+      // the value is generated from the
+      // start-date to keep it stable over multiple
+      // runs.
+      // const now = new moment();
+      // value: now.toDate(),
+      new Property({
+        name: "DTSTAMP",
+        value: from.toDate(), // keep stable
+        parameters: {
+          // VALUE: 'DATE-TIME',
+          TZID: "Europe/Zurich"
+        }
+      }),
+      new Property({
+        name: "SUMMARY",
+        value: title || "no Title"
+      })
+    );
 
     if (from.diff(to) === 0) {
       // whole day handling
@@ -128,7 +152,7 @@ class icsExporter {
       properties.push(
         new Property({
           name: "LOCATION",
-          value: location,
+          value: location
         })
       );
     }
