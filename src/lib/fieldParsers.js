@@ -20,8 +20,23 @@ const MonthNameDE = [
   "Dezember|Dez.?"
 ];
 
-const MonthNameDEDef = MonthNameDE.join("|");
-const MonthDef = "(" + MonthNumberDef + "|" + MonthNameDEDef + ")";
+const MonthNameEN = [
+  "January|Jan.?",
+  "February|Feb.?",
+  "March|Mar.?",
+  "April|Apr.?",
+  "May",
+  "June",
+  "July",
+  "August|Aug.?",
+  "September|Sep.?",
+  "October|Oct.?",
+  "November|Nov.?",
+  "December|Dec.?"
+];
+
+const MonthNameDef = [...MonthNameDE, ...MonthNameEN].join("|");
+const MonthDef = "(" + MonthNumberDef + "|" + MonthNameDef + ")";
 const DateDef = DayDef + "[. ]+" + MonthDef + "[. ]+(19\\d\\d|20\\d\\d|\\d\\d)";
 
 // h
@@ -43,6 +58,10 @@ const testLocation = /^(📍|place|location|ort|where|wo)[:]?[ ]?(.*)/i;
 
 const testUrl = /^(http|www)(.*)/;
 
+const isNumeric = num => {
+  return !isNaN(num);
+};
+
 const parseDate = txt => {
   let parsed = testDate.exec(txt);
 
@@ -56,9 +75,16 @@ const parseDate = txt => {
   }
 
   // parse names of month to month
-  MonthNameDE.forEach((def, index) => {
-    month = month.replace(RegExp(def, "i"), index + 1);
-  });
+  if (!isNumeric(month)) {
+    MonthNameDE.forEach((def, index) => {
+      month = month.replace(RegExp(def, "i"), index + 1);
+    });
+  }
+  if (!isNumeric(month)) {
+    MonthNameEN.forEach((def, index) => {
+      month = month.replace(RegExp(def, "i"), index + 1);
+    });
+  }
 
   month = parseInt(month);
 
