@@ -29,12 +29,6 @@ function App() {
     useFrontmatter ? `---\n${frontmatter}\n---\n${content}` : content
   );
 
-  // // Similar to componentDidMount and componentDidUpdate:
-  //  useEffect(() => {
-  //    // Update the document title using the browser API
-  //    document.title = `You clicked ${count} times`;
-  //  });
-  //
   function handleClick(e) {
     e.preventDefault();
 
@@ -93,8 +87,10 @@ function App() {
                 <h3>{event.title}</h3>
                 <p>
                   {"📅 "}
-                  {event.date.from.day}{"."}
-                  {event.date.from.month}{"."}
+                  {event.date.from.day}
+                  {"."}
+                  {event.date.from.month}
+                  {"."}
                   {event.date.from.year}
                   {event.date.from.hour && (
                     <span>
@@ -105,8 +101,10 @@ function App() {
                     </span>
                   )}
                   {" – "}
-                  {event.date.to.day}{"."}
-                  {event.date.to.month}{"."}
+                  {event.date.to.day}
+                  {"."}
+                  {event.date.to.month}
+                  {"."}
                   {event.date.to.year}
                   {event.date.to.hour && (
                     <span>
