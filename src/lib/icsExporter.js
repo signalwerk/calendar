@@ -99,17 +99,15 @@ class icsExporter {
       properties.push(
         new Property({
           name: "DTSTART",
-          value: from.toDate(),
+          value: from.format("YYYYMMDD"),
           parameters: {
-            // VALUE: 'DATE-TIME',
             VALUE: "DATE"
           }
         }),
         new Property({
           name: "DTEND",
-          value: to.toDate(),
+          value: to.format("YYYYMMDD"),
           parameters: {
-            // VALUE: 'DATE-TIME',
             VALUE: "DATE"
           }
         })
