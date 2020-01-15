@@ -28,10 +28,7 @@ import {
 
 const typeUndefCb = (entry, cb) =>
   ifElse(
-    compose(
-      equals("unknown"),
-      prop("type")
-    ),
+    compose(equals("unknown"), prop("type")),
     item => cb(item),
     item => item
   )(entry);
@@ -113,19 +110,13 @@ class Parser {
   parseLine(line) {
     // split up the line into components
     // 30.4.2018, 18–20Uhr, Frühlingsferien => ['30.4.2018', '18–20Uhr', 'Frühlingsferien']
-    const splitter = compose(
-      map(trim),
-      this.splitByComma
-    );
+    const splitter = compose(map(trim), this.splitByComma);
 
     // convert the string array to a object array
     const addType = map(value => ({ type: "unknown", body: value }));
 
     // build array
-    let data = compose(
-      addType,
-      splitter
-    )(line);
+    let data = compose(addType, splitter)(line);
 
     // parse array
     data = map(this.parseDateTime, data);
