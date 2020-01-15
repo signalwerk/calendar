@@ -49,6 +49,8 @@ class icsExporter {
       to.month = to.month - 1;
     }
 
+    const timeIsSet = from.hour ? true : false;
+
     from = {
       minute: from.minute || 0,
       hour: from.hour || 0,
@@ -93,7 +95,7 @@ class icsExporter {
       })
     );
 
-    if (from.diff(to) === 0) {
+    if (from.diff(to) === 0 && !timeIsSet) {
       // whole day handling
       to.add(1, "d");
       properties.push(
