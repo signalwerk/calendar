@@ -3,41 +3,70 @@ import { ifElse, compose, test, prop } from "ramda";
 // 01.01.1900 and 31.12.2099
 // https://stackoverflow.com/questions/12472976/regex-validate-european-date-format-with-multiple-separators
 const DayDef = "(3[01]|[12][0-9]|0[1-9]|[1-9])";
+
+const WeekDayDE = [
+  "Montag|Mo[.]?",
+  "Dienstag|Di[.]?",
+  "Mittwoch|Mi[.]?",
+  "Donnerstag|Do[.]?",
+  "Freitag|Fr[.]?",
+  "Samstag|Sa[.]?",
+  "Sonntag|So[.]?"
+];
+
+const WeekDayEN = [
+  "Monday|Mon?[.]?",
+  "Tuesday|Tue?[.]?",
+  "Wednesday|Wed?[.]?",
+  "Thursday|Thu?[.]?",
+  "Friday|Fri?[.]?",
+  "Saturday|Sat?[.]?",
+  "Sunday|Sun?[.]?"
+];
+
 const MonthNumberDef = "1[012]|0\\d|\\d";
 
 const MonthNameDE = [
-  "Januar|Jan.?",
-  "Februar|Febr.?|Feb.?",
-  "März|Mär.?|Marz|Mrz.?",
-  "April|Apr.?",
-  "Mai.?",
-  "Juni|Jun.?",
-  "Juli|Jul.?",
-  "August|Aug.?",
-  "September|Sept.?|Sep.?",
-  "Oktober|Okt.?",
-  "November|Nov.?",
-  "Dezember|Dez.?"
+  "Januar|Jan[.]?",
+  "Februar|Febr[.]?|Feb[.]?",
+  "März|Mär[.]?|Marz|Mrz[.]?",
+  "April|Apr[.]?",
+  "Mai",
+  "Juni|Jun[.]?",
+  "Juli|Jul[.]?",
+  "August|Aug[.]?",
+  "September|Sept[.]?|Sep[.]?",
+  "Oktober|Okt[.]?",
+  "November|Nov[.]?",
+  "Dezember|Dez[.]?"
 ];
 
 const MonthNameEN = [
-  "January|Jan.?",
-  "February|Feb.?",
-  "March|Mar.?",
-  "April|Apr.?",
+  "January|Jan[.]?",
+  "February|Feb[.]?",
+  "March|Mar[.]?",
+  "April|Apr[.]?",
   "May",
-  "June",
-  "July",
-  "August|Aug.?",
-  "September|Sep.?",
-  "October|Oct.?",
-  "November|Nov.?",
-  "December|Dec.?"
+  "June|Jun[.]?",
+  "July|Jul[.]?",
+  "August|Aug[.]?",
+  "September|Sep[.]?",
+  "October|Oct[.]?",
+  "November|Nov[.]?",
+  "December|Dec[.]?"
 ];
 
 const MonthNameDef = [...MonthNameDE, ...MonthNameEN].join("|");
 const MonthDef = "(" + MonthNumberDef + "|" + MonthNameDef + ")";
-const DateDef = DayDef + "[. ]+" + MonthDef + "[. ]+(19\\d\\d|20\\d\\d|\\d\\d)";
+const DateDef =
+  "(?:" +
+  [...WeekDayDE, ...WeekDayEN].join("|") +
+  ")?" +
+  "(?:[ ]+)?" +
+  DayDef +
+  "[. ]+" +
+  MonthDef +
+  "[. ]+(19\\d\\d|20\\d\\d|\\d\\d)";
 
 // h
 const hourDef = "([ ]*(h|uhr))?";
@@ -155,55 +184,37 @@ const parseTimeRange = txt => {
 };
 
 export const parseIfIsDate = ifElse(
-  compose(
-    test(testDate),
-    prop("body")
-  ),
+  compose(test(testDate), prop("body")),
   item => parseDate(item.body),
   item => item
 );
 
 export const parseIfIsTime = ifElse(
-  compose(
-    test(testTime),
-    prop("body")
-  ),
+  compose(test(testTime), prop("body")),
   item => parseTime(item.body),
   item => item
 );
 
 export const parseIfIsTimeRange = ifElse(
-  compose(
-    test(testTimeRange),
-    prop("body")
-  ),
+  compose(test(testTimeRange), prop("body")),
   item => parseTimeRange(item.body),
   item => item
 );
 
 export const parseIfIsNotes = ifElse(
-  compose(
-    test(testNotes),
-    prop("body")
-  ),
+  compose(test(testNotes), prop("body")),
   item => parseNotes(item.body),
   item => item
 );
 
 export const parseIfIsLocation = ifElse(
-  compose(
-    test(testLocation),
-    prop("body")
-  ),
+  compose(test(testLocation), prop("body")),
   item => parseLocation(item.body),
   item => item
 );
 
 export const parseIfIsUrl = ifElse(
-  compose(
-    test(testUrl),
-    prop("body")
-  ),
+  compose(test(testUrl), prop("body")),
   item => parseUrl(item.body),
   item => item
 );
