@@ -23,3 +23,7 @@ notes: bring beer.
 29.2.2016, JS
 ```
 This will produce two events, one with the Title `Meetup – HTML` and one with `Meetup – JS`. Both have a note and a time-range.
+
+
+## Similar Projects
+* [Duckling](https://github.com/facebook/duckling)
