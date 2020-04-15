@@ -2,30 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:signalwerk-generator
 BEGIN:VEVENT
-UID:fcc3d0d9-4f7a-58bb-94a1-f318fbb6ba7d
-DTSTAMP;TZID=Europe/Zurich:20180303T100000
-SUMMARY:Wahlen – Auszähldienst
-DTSTART;TZID=Europe/Zurich:20180303T100000
-DTEND;TZID=Europe/Zurich:20180303T170000
-DESCRIPTION:Feldstrasse 75
-END:VEVENT
-BEGIN:VEVENT
-UID:27bf0ec4-d83a-5ddf-ae47-cd12fc30fb86
-DTSTAMP;TZID=Europe/Zurich:20180304T100000
-SUMMARY:Wahlen – Auszähldienst
-DTSTART;TZID=Europe/Zurich:20180304T100000
-DTEND;TZID=Europe/Zurich:20180304T170000
-DESCRIPTION:Feldstrasse 75
-END:VEVENT
-BEGIN:VEVENT
-UID:7d4fc775-617d-5b5c-9c86-5ac9a4a4d7de
-DTSTAMP;TZID=Europe/Zurich:20180610T000000
-SUMMARY:Wahlen – Auszähldienst – 9 – 16 Uhr
-DTSTART;VALUE=DATE:20180610
-DTEND;VALUE=DATE:20180611
-DESCRIPTION:Feldstrasse 75
-END:VEVENT
-BEGIN:VEVENT
 UID:c865f19b-bdca-53f1-b0a0-d5a9085bb4c6
 DTSTAMP;TZID=Europe/Zurich:20180923T000000
 SUMMARY:Eidgenössische Volksabstimmung – definitv
@@ -883,5 +859,29 @@ URL;VALUE=URI:https://www.bk.admin.ch/ch/d/pore/va/vab_1_3_3_1.html
 DESCRIPTION:Ob ein Termin tatsächlich benützt wird ist nicht sicher. Der Bu
  ndesrat legt wenigstens vier Monate vor dem Abstimmungstermin fest\, welche
   Vorlagen zur Abstimmung gelangen.
+END:VEVENT
+BEGIN:VEVENT
+UID:fcc3d0d9-4f7a-58bb-94a1-f318fbb6ba7d
+DTSTAMP;TZID=Europe/Zurich:20180303T100000
+SUMMARY:Wahlen – Auszähldienst
+DTSTART;TZID=Europe/Zurich:20180303T100000
+DTEND;TZID=Europe/Zurich:20180303T170000
+DESCRIPTION:Feldstrasse 75
+END:VEVENT
+BEGIN:VEVENT
+UID:27bf0ec4-d83a-5ddf-ae47-cd12fc30fb86
+DTSTAMP;TZID=Europe/Zurich:20180304T100000
+SUMMARY:Wahlen – Auszähldienst
+DTSTART;TZID=Europe/Zurich:20180304T100000
+DTEND;TZID=Europe/Zurich:20180304T170000
+DESCRIPTION:Feldstrasse 75
+END:VEVENT
+BEGIN:VEVENT
+UID:7d4fc775-617d-5b5c-9c86-5ac9a4a4d7de
+DTSTAMP;TZID=Europe/Zurich:20180610T000000
+SUMMARY:Wahlen – Auszähldienst – 9 – 16 Uhr
+DTSTART;VALUE=DATE:20180610
+DTEND;VALUE=DATE:20180611
+DESCRIPTION:Feldstrasse 75
 END:VEVENT
 END:VCALENDAR

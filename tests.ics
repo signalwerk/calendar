@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:signalwerk-generator
+BEGIN:VEVENT
+UID:bba4ea2c-b552-52f9-9eef-64f81be4a130
+DTSTAMP;TZID=Europe/Zurich:20180824T170000
+SUMMARY:Test – Title of Event
+DTSTART;TZID=Europe/Zurich:20180824T170000
+DTEND;TZID=Europe/Zurich:20180824T200000
+DESCRIPTION:Global Notes\nNotes of Event
+END:VEVENT
+BEGIN:VEVENT
+UID:5f43ed2e-b4c6-5fb7-b272-437f5f1d2f69
+DTSTAMP;TZID=Europe/Zurich:20180720T170000
+SUMMARY:Test – Title of Event – banana\, apple\, pear
+DTSTART;TZID=Europe/Zurich:20180720T170000
+DTEND;TZID=Europe/Zurich:20180720T200000
+DESCRIPTION:Global Notes\nNotes of Event. Made for 1\, 2 and more things...
+END:VEVENT
+END:VCALENDAR
