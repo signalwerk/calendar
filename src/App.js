@@ -1,10 +1,15 @@
 import React, { useState } from "react";
 
-import Parser from "./lib/Parser";
-import icsExporter from "./lib/icsExporter";
+import cDeck from "calendar-deck";
+
 import { saveAs } from "file-saver";
 
 import "./App.css";
+
+const {
+  Parser,
+  Exporter: { ics: icsExporter }
+} = cDeck;
 
 const demoFrontmatter = `title:
   prefix: "Meetup"
