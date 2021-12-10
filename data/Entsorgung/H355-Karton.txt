@@ -1,7 +1,7 @@
 ---
 title:
   prefix: "H355 – Karton"
-url: https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recycling/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=&houseNo=355&karton=true&q_type=showCalendar#resultStartTarget
+url: https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recycling/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=&houseNo=355&papier=true&q_type=showCalendar#resultStartTarget
 ---
 
 2. Mai 2018
