@@ -27,6 +27,7 @@ This will produce two events, one with the Title `Meetup – HTML` and one with 
 
 ## Similar Projects
 * [Duckling](https://github.com/facebook/duckling)
+* [arcsecond](https://github.com/francisrstokes/arcsecond)
 
 ## ToDo
 * [Parser Visualizer](https://mattmazzola.github.io/slate-entity-labeler/)
