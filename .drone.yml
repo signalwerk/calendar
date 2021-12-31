@@ -1,0 +1,17 @@
+kind: pipeline
+name: default
+
+steps:
+  - name: build
+    image: node:16
+    commands:
+      - npm ci
+      - bash ./ci/gh-pages.sh
+    environment:
+      DECRYPT_KEY:
+        from_secret: "DECRYPT_KEY"
+      COMMIT_AUTHOR_EMAIL: "sh@signalwerk.ch"
+      DEPLOY_DIR: "build"
+    when:
+      branch:
+        - main

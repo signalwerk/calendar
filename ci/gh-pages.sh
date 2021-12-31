@@ -4,7 +4,7 @@ set -e # Exit with nonzero exit code if anything fails
 
 echo "-- start"
 
-SOURCE_BRANCH="${SOURCE_BRANCH:-master}"
+SOURCE_BRANCH="${SOURCE_BRANCH:-main}"
 TARGET_BRANCH="${TARGET_BRANCH:-gh-pages}"
 DEPLOY_DIR="${DEPLOY_DIR:-public}"
 
@@ -21,7 +21,6 @@ echo "     – SOURCE_BRANCH=${SOURCE_BRANCH}"
 echo "     – TARGET_BRANCH=${TARGET_BRANCH}"
 echo "     – DEPLOY_DIR=${DEPLOY_DIR}"
 echo "     – COMMIT_AUTHOR_EMAIL=${COMMIT_AUTHOR_EMAIL}"
-echo "     – REPO=${REPO}"
 echo "     – REPO=${REPO}"
 echo "     – SSH_REPO=${SSH_REPO}"
 echo "     – SHA=${SHA}"
