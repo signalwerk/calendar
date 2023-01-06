@@ -1,7 +1,7 @@
 ---
 title:
   prefix: "H355 – Papier"
-url: https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recycling/sauberes_zuerich/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+url: https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recycling/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=&houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
 ---
 
 20. April 2018
@@ -128,3 +128,30 @@ url: https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recycling/sauberes_zue
 30. November 2022
 14. Dezember 2022
 28. Dezember 2022
+
+11. Januar 2023
+25. Januar 2023
+8. Februar 2023
+22. Februar 2023
+8. März 2023
+22. März 2023
+5. April 2023
+19. April 2023
+3. Mai 2023
+17. Mai 2023
+31. Mai 2023
+14. Juni 2023
+28. Juni 2023
+12. Juli 2023
+26. Juli 2023
+9. August 2023
+23. August 2023
+6. September 2023
+20. September 2023
+4. Oktober 2023
+18. Oktober 2023
+1. November 2023
+15. November 2023
+29. November 2023
+13. Dezember 2023
+27. Dezember 2023
