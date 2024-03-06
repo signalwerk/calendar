@@ -2816,6 +2816,216 @@ URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
  &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
 END:VEVENT
 BEGIN:VEVENT
+UID:7ffda7d7-514c-5b70-95f1-de8909082ce8
+DTSTAMP;TZID=Europe/Zurich:20240313T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20240313
+DTEND;VALUE=DATE:20240314
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:d9e95e6d-bf39-5904-99f5-2a7bd8ecd454
+DTSTAMP;TZID=Europe/Zurich:20240327T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20240327
+DTEND;VALUE=DATE:20240328
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:246d7833-284d-5fdf-a802-dd5066503a7b
+DTSTAMP;TZID=Europe/Zurich:20240410T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20240410
+DTEND;VALUE=DATE:20240411
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:235e1db1-0612-5be6-b648-e73e33fae6b3
+DTSTAMP;TZID=Europe/Zurich:20240424T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20240424
+DTEND;VALUE=DATE:20240425
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:980cca03-e02d-502f-b472-899da4739790
+DTSTAMP;TZID=Europe/Zurich:20240508T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20240508
+DTEND;VALUE=DATE:20240509
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:c2fe8ceb-f9a6-509e-8906-05013f08f4a1
+DTSTAMP;TZID=Europe/Zurich:20240522T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20240522
+DTEND;VALUE=DATE:20240523
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:96d93a18-4221-52c1-8a8e-7567943b8799
+DTSTAMP;TZID=Europe/Zurich:20240605T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20240605
+DTEND;VALUE=DATE:20240606
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:751e0d59-fd62-50a5-a8e8-c32a63c98197
+DTSTAMP;TZID=Europe/Zurich:20240619T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20240619
+DTEND;VALUE=DATE:20240620
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:4e4212bd-6671-5226-8db6-e14d66e71963
+DTSTAMP;TZID=Europe/Zurich:20240703T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20240703
+DTEND;VALUE=DATE:20240704
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:d4dd4a67-f93b-57b7-a251-df8d35bdaa74
+DTSTAMP;TZID=Europe/Zurich:20240717T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20240717
+DTEND;VALUE=DATE:20240718
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:4b9768fe-ae16-57a1-aff4-f2606b6fc2d5
+DTSTAMP;TZID=Europe/Zurich:20240731T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20240731
+DTEND;VALUE=DATE:20240801
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:daf4604e-d7f4-5798-8668-0dfc439d3dc8
+DTSTAMP;TZID=Europe/Zurich:20240814T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20240814
+DTEND;VALUE=DATE:20240815
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:7d4e79c9-89ad-5d9d-8171-9202e7a5ef60
+DTSTAMP;TZID=Europe/Zurich:20240828T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20240828
+DTEND;VALUE=DATE:20240829
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:119e46e0-e7d1-5741-a89c-a1b3f2365ba4
+DTSTAMP;TZID=Europe/Zurich:20240911T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20240911
+DTEND;VALUE=DATE:20240912
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:5c7656a6-b6fb-5482-a892-864a0f9e810b
+DTSTAMP;TZID=Europe/Zurich:20240925T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20240925
+DTEND;VALUE=DATE:20240926
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:5668ea77-c1ac-52cf-b37b-6ad122d205dc
+DTSTAMP;TZID=Europe/Zurich:20241009T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20241009
+DTEND;VALUE=DATE:20241010
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:00cf385d-488e-5edd-9d33-64bb16ccedc8
+DTSTAMP;TZID=Europe/Zurich:20241023T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20241023
+DTEND;VALUE=DATE:20241024
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:f73c523a-c1da-5d38-aa74-137fda0744b4
+DTSTAMP;TZID=Europe/Zurich:20241106T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20241106
+DTEND;VALUE=DATE:20241107
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:b64a078b-efad-50ae-bdbc-963ac0acd6a6
+DTSTAMP;TZID=Europe/Zurich:20241120T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20241120
+DTEND;VALUE=DATE:20241121
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:45555992-d87e-5f2d-98d2-5aeda1c8094d
+DTSTAMP;TZID=Europe/Zurich:20241204T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20241204
+DTEND;VALUE=DATE:20241205
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:d96d9832-bf26-5556-929b-6871d74d640b
+DTSTAMP;TZID=Europe/Zurich:20241218T000000
+SUMMARY:H355 – Karton
+DTSTART;VALUE=DATE:20241218
+DTEND;VALUE=DATE:20241219
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
 UID:2892fa2e-030e-5c71-ada2-a0d69f41b0e3
 DTSTAMP;TZID=Europe/Zurich:20180420T000000
 SUMMARY:H355 – Papier
@@ -4271,6 +4481,206 @@ DTSTAMP;TZID=Europe/Zurich:20231227T000000
 SUMMARY:H355 – Papier
 DTSTART;VALUE=DATE:20231227
 DTEND;VALUE=DATE:20231228
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc1d607-2660-511f-815b-283b7c068dbc
+DTSTAMP;TZID=Europe/Zurich:20240306T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20240306
+DTEND;VALUE=DATE:20240307
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:cc02e916-b891-5688-860d-f346dfcaf5b1
+DTSTAMP;TZID=Europe/Zurich:20240320T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20240320
+DTEND;VALUE=DATE:20240321
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:46231152-6a6b-53a4-8521-31c8ebe59a8b
+DTSTAMP;TZID=Europe/Zurich:20240403T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20240403
+DTEND;VALUE=DATE:20240404
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:7a716281-9dac-5f08-b2cb-7343a9c4325d
+DTSTAMP;TZID=Europe/Zurich:20240417T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20240417
+DTEND;VALUE=DATE:20240418
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:d4466434-bb8f-5648-bf50-2795c0e2ace2
+DTSTAMP;TZID=Europe/Zurich:20240515T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20240515
+DTEND;VALUE=DATE:20240516
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:bc2acc8c-c937-5bbf-a75e-0b2eacb85885
+DTSTAMP;TZID=Europe/Zurich:20240529T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20240529
+DTEND;VALUE=DATE:20240530
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:46fe8184-6224-5ccf-ae5f-99dbab700e56
+DTSTAMP;TZID=Europe/Zurich:20240612T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20240612
+DTEND;VALUE=DATE:20240613
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:197e78ba-72f3-5530-b257-3a9bf0c89673
+DTSTAMP;TZID=Europe/Zurich:20240626T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20240626
+DTEND;VALUE=DATE:20240627
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:1bb0b702-6913-5bea-bd99-6dd1a81bfe4a
+DTSTAMP;TZID=Europe/Zurich:20240710T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20240710
+DTEND;VALUE=DATE:20240711
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:d832e91f-b2b9-59dd-bd80-6039d8357f73
+DTSTAMP;TZID=Europe/Zurich:20240724T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20240724
+DTEND;VALUE=DATE:20240725
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:55c8d4cb-1a56-59f4-be34-4c5e42a99ccb
+DTSTAMP;TZID=Europe/Zurich:20240807T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20240807
+DTEND;VALUE=DATE:20240808
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:fd9d15e9-f1fb-5e0d-aa3e-c99ece8b8d2a
+DTSTAMP;TZID=Europe/Zurich:20240821T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20240821
+DTEND;VALUE=DATE:20240822
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:c6ad29d4-6a7e-5490-a25c-96db69efbc8f
+DTSTAMP;TZID=Europe/Zurich:20240904T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20240904
+DTEND;VALUE=DATE:20240905
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:7fc02736-1c9e-56b8-b440-a3c186931f1e
+DTSTAMP;TZID=Europe/Zurich:20240918T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20240918
+DTEND;VALUE=DATE:20240919
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:a8ca84fb-85a5-5fdf-b3e1-863ff6ab54d2
+DTSTAMP;TZID=Europe/Zurich:20241002T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20241002
+DTEND;VALUE=DATE:20241003
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:4a999c9d-0658-52ae-b502-d9e23f083ec6
+DTSTAMP;TZID=Europe/Zurich:20241016T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20241016
+DTEND;VALUE=DATE:20241017
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:abe63c4f-e7e2-5969-9ab1-2d265b45c1c8
+DTSTAMP;TZID=Europe/Zurich:20241030T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20241030
+DTEND;VALUE=DATE:20241031
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:1b379ef0-7154-5d62-8b2b-3a1def50d4c9
+DTSTAMP;TZID=Europe/Zurich:20241113T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20241113
+DTEND;VALUE=DATE:20241114
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:fa49ecc6-636d-5eb4-a122-527d708e6f76
+DTSTAMP;TZID=Europe/Zurich:20241127T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20241127
+DTEND;VALUE=DATE:20241128
+URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
+ g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
+ &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+END:VEVENT
+BEGIN:VEVENT
+UID:114b982f-80e9-5409-ae00-ff7a4ffd0826
+DTSTAMP;TZID=Europe/Zurich:20241211T000000
+SUMMARY:H355 – Papier
+DTSTART;VALUE=DATE:20241211
+DTEND;VALUE=DATE:20241212
 URL;VALUE=URI:https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recyclin
  g/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=
  &houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
