@@ -1,5 +1,3 @@
-[![Build Status](https://ci.signalwerk.ch/api/badges/signalwerk/calendar/status.svg)](https://ci.signalwerk.ch/signalwerk/calendar)
-
 ## calendar parser
 
 A human editable (.txt) and machine readable (.ics) calendar-list.
