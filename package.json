@@ -2,38 +2,21 @@
   "name": "calendar",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "file-saver": "^2.0.2",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "5.0.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "calendar-deck": "^0.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && npm run build-ics",
-    "build-ics": "calendar-deck build --outputFormat=ics --outputPath=./build ./data/",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "dev": "vite",
+    "build": "vite build && npm run build-ics",
+    "build-ics": "calendar-deck build --outputFormat=ics --outputPath=./dist ./data/",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.0",
-    "@babel/node": "^7.6.1",
-    "@babel/preset-env": "^7.6.0",
-    "calendar-deck": "^0.1.0"
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.10"
   }
 }

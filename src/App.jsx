@@ -8,7 +8,7 @@ import "./App.css";
 
 const {
   Parser,
-  Exporter: { ics: icsExporter }
+  Exporter: { ics: icsExporter },
 } = cDeck;
 
 const demoFrontmatter = `title:
@@ -31,7 +31,7 @@ function App() {
   let parser = new Parser();
 
   parser.parse(
-    useFrontmatter ? `---\n${frontmatter}\n---\n${content}` : content
+    useFrontmatter ? `---\n${frontmatter}\n---\n${content}` : content,
   );
 
   function handleClick(e) {
@@ -63,7 +63,7 @@ function App() {
               name="use frontmatter"
               type="checkbox"
               checked={useFrontmatter}
-              onChange={e => setUseFrontmatter(e.target.checked)}
+              onChange={(e) => setUseFrontmatter(e.target.checked)}
             />
           </label>
           <br />
@@ -75,20 +75,20 @@ function App() {
             <textarea
               className="App-input App-input--frontmatter"
               value={frontmatter}
-              onChange={e => setFrontmatter(e.target.value)}
+              onChange={(e) => setFrontmatter(e.target.value)}
             />
           </div>
         )}
         <textarea
           className="App-input"
           value={content}
-          onChange={e => setContent(e.target.value)}
+          onChange={(e) => setContent(e.target.value)}
         />
         {parser.events &&
           parser.events.length > 0 &&
-          parser.events.map(event => {
+          parser.events.map((event) => {
             return (
-              <div className="App-event">
+              <div className="App-event" key={event.title}>
                 <h3>{event.title}</h3>
                 <p>
                   {"📅 "}

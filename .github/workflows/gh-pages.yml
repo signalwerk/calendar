@@ -20,7 +20,7 @@ jobs:
       - name: ⚡ use node
         uses: actions/setup-node@v3
         with:
-          node-version: "16.x"
+          node-version: "22.x"
 
       - name: ⚙️ npm setup
         run: npm ci
@@ -33,4 +33,4 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./dist

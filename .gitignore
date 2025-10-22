@@ -1,4 +1,2 @@
 /node_modules
-/build
-ci/.ssh/id_rsa
-ci/.ssh/secret.key
+/dist
