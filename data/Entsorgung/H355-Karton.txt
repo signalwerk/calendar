@@ -1,7 +1,7 @@
 ---
 title:
   prefix: "H355 – Karton"
-url: https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recycling/entsorgen/persoenlicher_entsorgungskalender.html?street=Hohlstrasse&name=&houseNo=355&papier=true&karton=true&q_type=showCalendar#resultStartTarget
+url: https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/entsorgungskalender.html?reset=false&street=Hohlstrasse&houseNo=355&dl_options=papier&dl_options=karton#resultStartTarget
 ---
 
 2. Mai 2018
@@ -150,3 +150,55 @@ url: https://www.stadt-zuerich.ch/ted/de/index/entsorgung_recycling/entsorgen/pe
 3. Dezember 2025
 17. Dezember 2025
 31. Dezember 2025
+
+15. Januar 2026
+22. Januar 2026
+29. Januar 2026
+5. Februar 2026
+12. Februar 2026
+19. Februar 2026
+26. Februar 2026
+5. März 2026
+12. März 2026
+19. März 2026
+26. März 2026
+2. April 2026
+9. April 2026
+16. April 2026
+23. April 2026
+30. April 2026
+7. Mai 2026
+16. Mai 2026
+21. Mai 2026
+28. Mai 2026
+4. Juni 2026
+11. Juni 2026
+18. Juni 2026
+25. Juni 2026
+2. Juli 2026
+9. Juli 2026
+16. Juli 2026
+23. Juli 2026
+30. Juli 2026
+6. August 2026
+13. August 2026
+20. August 2026
+27. August 2026
+3. September 2026
+10. September 2026
+17. September 2026
+24. September 2026
+1. Oktober 2026
+8. Oktober 2026
+15. Oktober 2026
+22. Oktober 2026
+29. Oktober 2026
+5. November 2026
+12. November 2026
+19. November 2026
+26. November 2026
+3. Dezember 2026
+10. Dezember 2026
+17. Dezember 2026
+24. Dezember 2026
+31. Dezember 2026

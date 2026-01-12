@@ -1,5 +1,7 @@
 ## calendar parser
 
+[cal.signalwerk.ch](https://cal.signalwerk.ch)
+
 A human editable (.txt) and machine readable (.ics) calendar-list.
 
 You can create a text with dates:
